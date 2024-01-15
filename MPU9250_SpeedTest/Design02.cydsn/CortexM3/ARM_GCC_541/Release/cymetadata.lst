@@ -1,0 +1,2789 @@
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 4
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.type	cy_meta_configecc, %object
+  26              		.size	cy_meta_configecc, 2168
+  27              	cy_meta_configecc:
+  28 0000 02       		.byte	2
+  29 0001 4F       		.byte	79
+  30 0002 00       		.byte	0
+  31 0003 40       		.byte	64
+  32 0004 05       		.byte	5
+  33 0005 52       		.byte	82
+  34 0006 00       		.byte	0
+  35 0007 40       		.byte	64
+  36 0008 04       		.byte	4
+  37 0009 64       		.byte	100
+  38 000a 00       		.byte	0
+  39 000b 40       		.byte	64
+  40 000c 02       		.byte	2
+  41 000d 65       		.byte	101
+  42 000e 00       		.byte	0
+  43 000f 40       		.byte	64
+  44 0010 02       		.byte	2
+  45 0011 03       		.byte	3
+  46 0012 01       		.byte	1
+  47 0013 40       		.byte	64
+  48 0014 02       		.byte	2
+  49 0015 07       		.byte	7
+  50 0016 01       		.byte	1
+  51 0017 40       		.byte	64
+  52 0018 4A       		.byte	74
+  53 0019 08       		.byte	8
+  54 001a 01       		.byte	1
+  55 001b 40       		.byte	64
+  56 001c 3F       		.byte	63
+  57 001d 09       		.byte	9
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 2
+
+
+  58 001e 01       		.byte	1
+  59 001f 40       		.byte	64
+  60 0020 62       		.byte	98
+  61 0021 0A       		.byte	10
+  62 0022 01       		.byte	1
+  63 0023 40       		.byte	64
+  64 0024 42       		.byte	66
+  65 0025 0B       		.byte	11
+  66 0026 01       		.byte	1
+  67 0027 40       		.byte	64
+  68 0028 4F       		.byte	79
+  69 0029 0C       		.byte	12
+  70 002a 01       		.byte	1
+  71 002b 40       		.byte	64
+  72 002c 42       		.byte	66
+  73 002d 0D       		.byte	13
+  74 002e 01       		.byte	1
+  75 002f 40       		.byte	64
+  76 0030 52       		.byte	82
+  77 0031 0E       		.byte	14
+  78 0032 01       		.byte	1
+  79 0033 40       		.byte	64
+  80 0034 34       		.byte	52
+  81 0035 0F       		.byte	15
+  82 0036 01       		.byte	1
+  83 0037 40       		.byte	64
+  84 0038 01       		.byte	1
+  85 0039 15       		.byte	21
+  86 003a 01       		.byte	1
+  87 003b 40       		.byte	64
+  88 003c 04       		.byte	4
+  89 003d 16       		.byte	22
+  90 003e 01       		.byte	1
+  91 003f 40       		.byte	64
+  92 0040 02       		.byte	2
+  93 0041 17       		.byte	23
+  94 0042 01       		.byte	1
+  95 0043 40       		.byte	64
+  96 0044 56       		.byte	86
+  97 0045 18       		.byte	24
+  98 0046 01       		.byte	1
+  99 0047 40       		.byte	64
+ 100 0048 58       		.byte	88
+ 101 0049 19       		.byte	25
+ 102 004a 01       		.byte	1
+ 103 004b 40       		.byte	64
+ 104 004c 53       		.byte	83
+ 105 004d 1A       		.byte	26
+ 106 004e 01       		.byte	1
+ 107 004f 40       		.byte	64
+ 108 0050 49       		.byte	73
+ 109 0051 1B       		.byte	27
+ 110 0052 01       		.byte	1
+ 111 0053 40       		.byte	64
+ 112 0054 03       		.byte	3
+ 113 0055 40       		.byte	64
+ 114 0056 01       		.byte	1
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 3
+
+
+ 115 0057 40       		.byte	64
+ 116 0058 08       		.byte	8
+ 117 0059 41       		.byte	65
+ 118 005a 01       		.byte	1
+ 119 005b 40       		.byte	64
+ 120 005c 05       		.byte	5
+ 121 005d 42       		.byte	66
+ 122 005e 01       		.byte	1
+ 123 005f 40       		.byte	64
+ 124 0060 06       		.byte	6
+ 125 0061 43       		.byte	67
+ 126 0062 01       		.byte	1
+ 127 0063 40       		.byte	64
+ 128 0064 0A       		.byte	10
+ 129 0065 45       		.byte	69
+ 130 0066 01       		.byte	1
+ 131 0067 40       		.byte	64
+ 132 0068 01       		.byte	1
+ 133 0069 46       		.byte	70
+ 134 006a 01       		.byte	1
+ 135 006b 40       		.byte	64
+ 136 006c 06       		.byte	6
+ 137 006d 48       		.byte	72
+ 138 006e 01       		.byte	1
+ 139 006f 40       		.byte	64
+ 140 0070 06       		.byte	6
+ 141 0071 49       		.byte	73
+ 142 0072 01       		.byte	1
+ 143 0073 40       		.byte	64
+ 144 0074 01       		.byte	1
+ 145 0075 4C       		.byte	76
+ 146 0076 01       		.byte	1
+ 147 0077 40       		.byte	64
+ 148 0078 07       		.byte	7
+ 149 0079 4D       		.byte	77
+ 150 007a 01       		.byte	1
+ 151 007b 40       		.byte	64
+ 152 007c 07       		.byte	7
+ 153 007d 50       		.byte	80
+ 154 007e 01       		.byte	1
+ 155 007f 40       		.byte	64
+ 156 0080 01       		.byte	1
+ 157 0081 51       		.byte	81
+ 158 0082 01       		.byte	1
+ 159 0083 40       		.byte	64
+ 160 0084 01       		.byte	1
+ 161 0085 80       		.byte	-128
+ 162 0086 0A       		.byte	10
+ 163 0087 36       		.byte	54
+ 164 0088 00       		.byte	0
+ 165 0089 80       		.byte	-128
+ 166 008a 10       		.byte	16
+ 167 008b 04       		.byte	4
+ 168 008c 11       		.byte	17
+ 169 008d 1C       		.byte	28
+ 170 008e 61       		.byte	97
+ 171 008f 80       		.byte	-128
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 4
+
+
+ 172 0090 64       		.byte	100
+ 173 0091 40       		.byte	64
+ 174 0092 7D       		.byte	125
+ 175 0093 03       		.byte	3
+ 176 0094 88       		.byte	-120
+ 177 0095 0F       		.byte	15
+ 178 0096 8B       		.byte	-117
+ 179 0097 0F       		.byte	15
+ 180 0098 8C       		.byte	-116
+ 181 0099 0D       		.byte	13
+ 182 009a 89       		.byte	-119
+ 183 009b 72       		.byte	114
+ 184 009c 8A       		.byte	-118
+ 185 009d 38       		.byte	56
+ 186 009e E6       		.byte	-26
+ 187 009f 02       		.byte	2
+ 188 00a0 EC       		.byte	-20
+ 189 00a1 20       		.byte	32
+ 190 00a2 E6       		.byte	-26
+ 191 00a3 80       		.byte	-128
+ 192 00a4 EC       		.byte	-20
+ 193 00a5 08       		.byte	8
+ 194 00a6 03       		.byte	3
+ 195 00a7 02       		.byte	2
+ 196 00a8 04       		.byte	4
+ 197 00a9 01       		.byte	1
+ 198 00aa 11       		.byte	17
+ 199 00ab 03       		.byte	3
+ 200 00ac 14       		.byte	20
+ 201 00ad 01       		.byte	1
+ 202 00ae 1A       		.byte	26
+ 203 00af 01       		.byte	1
+ 204 00b0 1E       		.byte	30
+ 205 00b1 01       		.byte	1
+ 206 00b2 1F       		.byte	31
+ 207 00b3 01       		.byte	1
+ 208 00b4 26       		.byte	38
+ 209 00b5 01       		.byte	1
+ 210 00b6 30       		.byte	48
+ 211 00b7 01       		.byte	1
+ 212 00b8 31       		.byte	49
+ 213 00b9 03       		.byte	3
+ 214 00ba 3E       		.byte	62
+ 215 00bb 01       		.byte	1
+ 216 00bc 40       		.byte	64
+ 217 00bd 23       		.byte	35
+ 218 00be 41       		.byte	65
+ 219 00bf 01       		.byte	1
+ 220 00c0 45       		.byte	69
+ 221 00c1 0C       		.byte	12
+ 222 00c2 46       		.byte	70
+ 223 00c3 EB       		.byte	-21
+ 224 00c4 48       		.byte	72
+ 225 00c5 0D       		.byte	13
+ 226 00c6 49       		.byte	73
+ 227 00c7 FF       		.byte	-1
+ 228 00c8 4A       		.byte	74
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 5
+
+
+ 229 00c9 FF       		.byte	-1
+ 230 00ca 4B       		.byte	75
+ 231 00cb FF       		.byte	-1
+ 232 00cc 4E       		.byte	78
+ 233 00cd F0       		.byte	-16
+ 234 00ce 4F       		.byte	79
+ 235 00cf 44       		.byte	68
+ 236 00d0 50       		.byte	80
+ 237 00d1 0C       		.byte	12
+ 238 00d2 54       		.byte	84
+ 239 00d3 01       		.byte	1
+ 240 00d4 56       		.byte	86
+ 241 00d5 04       		.byte	4
+ 242 00d6 58       		.byte	88
+ 243 00d7 04       		.byte	4
+ 244 00d8 59       		.byte	89
+ 245 00d9 04       		.byte	4
+ 246 00da 5A       		.byte	90
+ 247 00db 04       		.byte	4
+ 248 00dc 5B       		.byte	91
+ 249 00dd 04       		.byte	4
+ 250 00de 5C       		.byte	92
+ 251 00df 90       		.byte	-112
+ 252 00e0 5D       		.byte	93
+ 253 00e1 22       		.byte	34
+ 254 00e2 5F       		.byte	95
+ 255 00e3 01       		.byte	1
+ 256 00e4 66       		.byte	102
+ 257 00e5 C0       		.byte	-64
+ 258 00e6 6A       		.byte	106
+ 259 00e7 40       		.byte	64
+ 260 00e8 6B       		.byte	107
+ 261 00e9 02       		.byte	2
+ 262 00ea 83       		.byte	-125
+ 263 00eb 01       		.byte	1
+ 264 00ec 84       		.byte	-124
+ 265 00ed 0E       		.byte	14
+ 266 00ee 85       		.byte	-123
+ 267 00ef 3F       		.byte	63
+ 268 00f0 86       		.byte	-122
+ 269 00f1 01       		.byte	1
+ 270 00f2 88       		.byte	-120
+ 271 00f3 0E       		.byte	14
+ 272 00f4 89       		.byte	-119
+ 273 00f5 39       		.byte	57
+ 274 00f6 8A       		.byte	-118
+ 275 00f7 01       		.byte	1
+ 276 00f8 8B       		.byte	-117
+ 277 00f9 04       		.byte	4
+ 278 00fa 8C       		.byte	-116
+ 279 00fb 09       		.byte	9
+ 280 00fc 8E       		.byte	-114
+ 281 00fd 06       		.byte	6
+ 282 00fe 90       		.byte	-112
+ 283 00ff 02       		.byte	2
+ 284 0100 93       		.byte	-109
+ 285 0101 26       		.byte	38
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 6
+
+
+ 286 0102 94       		.byte	-108
+ 287 0103 06       		.byte	6
+ 288 0104 95       		.byte	-107
+ 289 0105 18       		.byte	24
+ 290 0106 99       		.byte	-103
+ 291 0107 08       		.byte	8
+ 292 0108 9D       		.byte	-99
+ 293 0109 10       		.byte	16
+ 294 010a A0       		.byte	-96
+ 295 010b 04       		.byte	4
+ 296 010c A5       		.byte	-91
+ 297 010d 19       		.byte	25
+ 298 010e A7       		.byte	-89
+ 299 010f 22       		.byte	34
+ 300 0110 A8       		.byte	-88
+ 301 0111 0F       		.byte	15
+ 302 0112 A9       		.byte	-87
+ 303 0113 01       		.byte	1
+ 304 0114 AB       		.byte	-85
+ 305 0115 40       		.byte	64
+ 306 0116 AD       		.byte	-83
+ 307 0117 27       		.byte	39
+ 308 0118 AE       		.byte	-82
+ 309 0119 01       		.byte	1
+ 310 011a AF       		.byte	-81
+ 311 011b 18       		.byte	24
+ 312 011c B0       		.byte	-80
+ 313 011d 08       		.byte	8
+ 314 011e B1       		.byte	-79
+ 315 011f 40       		.byte	64
+ 316 0120 B3       		.byte	-77
+ 317 0121 1F       		.byte	31
+ 318 0122 B4       		.byte	-76
+ 319 0123 07       		.byte	7
+ 320 0124 B5       		.byte	-75
+ 321 0125 38       		.byte	56
+ 322 0126 BA       		.byte	-70
+ 323 0127 20       		.byte	32
+ 324 0128 BB       		.byte	-69
+ 325 0129 08       		.byte	8
+ 326 012a BE       		.byte	-66
+ 327 012b 01       		.byte	1
+ 328 012c D6       		.byte	-42
+ 329 012d 08       		.byte	8
+ 330 012e D8       		.byte	-40
+ 331 012f 04       		.byte	4
+ 332 0130 D9       		.byte	-39
+ 333 0131 04       		.byte	4
+ 334 0132 DB       		.byte	-37
+ 335 0133 04       		.byte	4
+ 336 0134 DC       		.byte	-36
+ 337 0135 22       		.byte	34
+ 338 0136 DD       		.byte	-35
+ 339 0137 90       		.byte	-112
+ 340 0138 DF       		.byte	-33
+ 341 0139 01       		.byte	1
+ 342 013a 00       		.byte	0
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 7
+
+
+ 343 013b 14       		.byte	20
+ 344 013c 01       		.byte	1
+ 345 013d 80       		.byte	-128
+ 346 013e 06       		.byte	6
+ 347 013f 10       		.byte	16
+ 348 0140 07       		.byte	7
+ 349 0141 10       		.byte	16
+ 350 0142 08       		.byte	8
+ 351 0143 05       		.byte	5
+ 352 0144 0E       		.byte	14
+ 353 0145 22       		.byte	34
+ 354 0146 0F       		.byte	15
+ 355 0147 08       		.byte	8
+ 356 0148 10       		.byte	16
+ 357 0149 80       		.byte	-128
+ 358 014a 12       		.byte	18
+ 359 014b 0E       		.byte	14
+ 360 014c 14       		.byte	20
+ 361 014d 10       		.byte	16
+ 362 014e 18       		.byte	24
+ 363 014f 04       		.byte	4
+ 364 0150 19       		.byte	25
+ 365 0151 01       		.byte	1
+ 366 0152 1B       		.byte	27
+ 367 0153 10       		.byte	16
+ 368 0154 1E       		.byte	30
+ 369 0155 80       		.byte	-128
+ 370 0156 20       		.byte	32
+ 371 0157 10       		.byte	16
+ 372 0158 21       		.byte	33
+ 373 0159 01       		.byte	1
+ 374 015a 22       		.byte	34
+ 375 015b 20       		.byte	32
+ 376 015c 24       		.byte	36
+ 377 015d 40       		.byte	64
+ 378 015e 27       		.byte	39
+ 379 015f 40       		.byte	64
+ 380 0160 29       		.byte	41
+ 381 0161 A0       		.byte	-96
+ 382 0162 2B       		.byte	43
+ 383 0163 10       		.byte	16
+ 384 0164 30       		.byte	48
+ 385 0165 A4       		.byte	-92
+ 386 0166 31       		.byte	49
+ 387 0167 04       		.byte	4
+ 388 0168 32       		.byte	50
+ 389 0169 02       		.byte	2
+ 390 016a 37       		.byte	55
+ 391 016b 41       		.byte	65
+ 392 016c 38       		.byte	56
+ 393 016d 10       		.byte	16
+ 394 016e 39       		.byte	57
+ 395 016f 02       		.byte	2
+ 396 0170 3A       		.byte	58
+ 397 0171 04       		.byte	4
+ 398 0172 3C       		.byte	60
+ 399 0173 10       		.byte	16
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 8
+
+
+ 400 0174 3E       		.byte	62
+ 401 0175 20       		.byte	32
+ 402 0176 3F       		.byte	63
+ 403 0177 02       		.byte	2
+ 404 0178 44       		.byte	68
+ 405 0179 10       		.byte	16
+ 406 017a 46       		.byte	70
+ 407 017b 02       		.byte	2
+ 408 017c 47       		.byte	71
+ 409 017d 10       		.byte	16
+ 410 017e 4F       		.byte	79
+ 411 017f 08       		.byte	8
+ 412 0180 57       		.byte	87
+ 413 0181 60       		.byte	96
+ 414 0182 58       		.byte	88
+ 415 0183 40       		.byte	64
+ 416 0184 5C       		.byte	92
+ 417 0185 20       		.byte	32
+ 418 0186 5D       		.byte	93
+ 419 0187 02       		.byte	2
+ 420 0188 5E       		.byte	94
+ 421 0189 88       		.byte	-120
+ 422 018a 63       		.byte	99
+ 423 018b 02       		.byte	2
+ 424 018c 67       		.byte	103
+ 425 018d 80       		.byte	-128
+ 426 018e 69       		.byte	105
+ 427 018f C0       		.byte	-64
+ 428 0190 6F       		.byte	111
+ 429 0191 01       		.byte	1
+ 430 0192 8A       		.byte	-118
+ 431 0193 12       		.byte	18
+ 432 0194 8B       		.byte	-117
+ 433 0195 40       		.byte	64
+ 434 0196 95       		.byte	-107
+ 435 0197 D8       		.byte	-40
+ 436 0198 96       		.byte	-106
+ 437 0199 80       		.byte	-128
+ 438 019a 98       		.byte	-104
+ 439 019b 40       		.byte	64
+ 440 019c A1       		.byte	-95
+ 441 019d 08       		.byte	8
+ 442 019e A2       		.byte	-94
+ 443 019f 04       		.byte	4
+ 444 01a0 A7       		.byte	-89
+ 445 01a1 20       		.byte	32
+ 446 01a2 AC       		.byte	-84
+ 447 01a3 40       		.byte	64
+ 448 01a4 C0       		.byte	-64
+ 449 01a5 27       		.byte	39
+ 450 01a6 C2       		.byte	-62
+ 451 01a7 EC       		.byte	-20
+ 452 01a8 C4       		.byte	-60
+ 453 01a9 2B       		.byte	43
+ 454 01aa CA       		.byte	-54
+ 455 01ab 0E       		.byte	14
+ 456 01ac CC       		.byte	-52
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 9
+
+
+ 457 01ad 9F       		.byte	-97
+ 458 01ae CE       		.byte	-50
+ 459 01af 87       		.byte	-121
+ 460 01b0 D0       		.byte	-48
+ 461 01b1 70       		.byte	112
+ 462 01b2 D6       		.byte	-42
+ 463 01b3 F8       		.byte	-8
+ 464 01b4 D8       		.byte	-40
+ 465 01b5 88       		.byte	-120
+ 466 01b6 E6       		.byte	-26
+ 467 01b7 80       		.byte	-128
+ 468 01b8 02       		.byte	2
+ 469 01b9 01       		.byte	1
+ 470 01ba 03       		.byte	3
+ 471 01bb 02       		.byte	2
+ 472 01bc 05       		.byte	5
+ 473 01bd 01       		.byte	1
+ 474 01be 08       		.byte	8
+ 475 01bf 06       		.byte	6
+ 476 01c0 09       		.byte	9
+ 477 01c1 01       		.byte	1
+ 478 01c2 19       		.byte	25
+ 479 01c3 02       		.byte	2
+ 480 01c4 1C       		.byte	28
+ 481 01c5 03       		.byte	3
+ 482 01c6 1D       		.byte	29
+ 483 01c7 01       		.byte	1
+ 484 01c8 1E       		.byte	30
+ 485 01c9 04       		.byte	4
+ 486 01ca 24       		.byte	36
+ 487 01cb 05       		.byte	5
+ 488 01cc 26       		.byte	38
+ 489 01cd 02       		.byte	2
+ 490 01ce 2F       		.byte	47
+ 491 01cf 02       		.byte	2
+ 492 01d0 31       		.byte	49
+ 493 01d1 02       		.byte	2
+ 494 01d2 32       		.byte	50
+ 495 01d3 07       		.byte	7
+ 496 01d4 33       		.byte	51
+ 497 01d5 01       		.byte	1
+ 498 01d6 38       		.byte	56
+ 499 01d7 08       		.byte	8
+ 500 01d8 3F       		.byte	63
+ 501 01d9 01       		.byte	1
+ 502 01da 40       		.byte	64
+ 503 01db 46       		.byte	70
+ 504 01dc 41       		.byte	65
+ 505 01dd 01       		.byte	1
+ 506 01de 49       		.byte	73
+ 507 01df FF       		.byte	-1
+ 508 01e0 4A       		.byte	74
+ 509 01e1 FF       		.byte	-1
+ 510 01e2 4B       		.byte	75
+ 511 01e3 FF       		.byte	-1
+ 512 01e4 4F       		.byte	79
+ 513 01e5 01       		.byte	1
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 10
+
+
+ 514 01e6 50       		.byte	80
+ 515 01e7 18       		.byte	24
+ 516 01e8 58       		.byte	88
+ 517 01e9 04       		.byte	4
+ 518 01ea 59       		.byte	89
+ 519 01eb 04       		.byte	4
+ 520 01ec 5A       		.byte	90
+ 521 01ed 04       		.byte	4
+ 522 01ee 5C       		.byte	92
+ 523 01ef 20       		.byte	32
+ 524 01f0 5D       		.byte	93
+ 525 01f1 01       		.byte	1
+ 526 01f2 5F       		.byte	95
+ 527 01f3 01       		.byte	1
+ 528 01f4 60       		.byte	96
+ 529 01f5 40       		.byte	64
+ 530 01f6 62       		.byte	98
+ 531 01f7 40       		.byte	64
+ 532 01f8 64       		.byte	100
+ 533 01f9 40       		.byte	64
+ 534 01fa 65       		.byte	101
+ 535 01fb 40       		.byte	64
+ 536 01fc 66       		.byte	102
+ 537 01fd 80       		.byte	-128
+ 538 01fe 68       		.byte	104
+ 539 01ff 80       		.byte	-128
+ 540 0200 6A       		.byte	106
+ 541 0201 80       		.byte	-128
+ 542 0202 6C       		.byte	108
+ 543 0203 80       		.byte	-128
+ 544 0204 6E       		.byte	110
+ 545 0205 80       		.byte	-128
+ 546 0206 80       		.byte	-128
+ 547 0207 0D       		.byte	13
+ 548 0208 81       		.byte	-127
+ 549 0209 01       		.byte	1
+ 550 020a 83       		.byte	-125
+ 551 020b 1A       		.byte	26
+ 552 020c 84       		.byte	-124
+ 553 020d 02       		.byte	2
+ 554 020e 86       		.byte	-122
+ 555 020f 04       		.byte	4
+ 556 0210 8C       		.byte	-116
+ 557 0211 0D       		.byte	13
+ 558 0212 8D       		.byte	-115
+ 559 0213 10       		.byte	16
+ 560 0214 90       		.byte	-112
+ 561 0215 01       		.byte	1
+ 562 0216 92       		.byte	-110
+ 563 0217 02       		.byte	2
+ 564 0218 93       		.byte	-109
+ 565 0219 10       		.byte	16
+ 566 021a 94       		.byte	-108
+ 567 021b 0D       		.byte	13
+ 568 021c 95       		.byte	-107
+ 569 021d 10       		.byte	16
+ 570 021e 98       		.byte	-104
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 11
+
+
+ 571 021f 02       		.byte	2
+ 572 0220 99       		.byte	-103
+ 573 0221 03       		.byte	3
+ 574 0222 9A       		.byte	-102
+ 575 0223 0D       		.byte	13
+ 576 0224 9B       		.byte	-101
+ 577 0225 14       		.byte	20
+ 578 0226 9C       		.byte	-100
+ 579 0227 0D       		.byte	13
+ 580 0228 9D       		.byte	-99
+ 581 0229 02       		.byte	2
+ 582 022a 9F       		.byte	-97
+ 583 022b 1D       		.byte	29
+ 584 022c A0       		.byte	-96
+ 585 022d 02       		.byte	2
+ 586 022e A1       		.byte	-95
+ 587 022f 10       		.byte	16
+ 588 0230 A2       		.byte	-94
+ 589 0231 08       		.byte	8
+ 590 0232 A4       		.byte	-92
+ 591 0233 0D       		.byte	13
+ 592 0234 A5       		.byte	-91
+ 593 0235 20       		.byte	32
+ 594 0236 A9       		.byte	-87
+ 595 0237 10       		.byte	16
+ 596 0238 AD       		.byte	-83
+ 597 0239 03       		.byte	3
+ 598 023a AF       		.byte	-81
+ 599 023b 0C       		.byte	12
+ 600 023c B3       		.byte	-77
+ 601 023d 20       		.byte	32
+ 602 023e B4       		.byte	-76
+ 603 023f 0F       		.byte	15
+ 604 0240 B7       		.byte	-73
+ 605 0241 1F       		.byte	31
+ 606 0242 BA       		.byte	-70
+ 607 0243 20       		.byte	32
+ 608 0244 BB       		.byte	-69
+ 609 0245 80       		.byte	-128
+ 610 0246 BF       		.byte	-65
+ 611 0247 04       		.byte	4
+ 612 0248 C0       		.byte	-64
+ 613 0249 46       		.byte	70
+ 614 024a C1       		.byte	-63
+ 615 024b 05       		.byte	5
+ 616 024c C9       		.byte	-55
+ 617 024d FF       		.byte	-1
+ 618 024e CA       		.byte	-54
+ 619 024f FF       		.byte	-1
+ 620 0250 CB       		.byte	-53
+ 621 0251 FF       		.byte	-1
+ 622 0252 CD       		.byte	-51
+ 623 0253 83       		.byte	-125
+ 624 0254 CE       		.byte	-50
+ 625 0255 03       		.byte	3
+ 626 0256 CF       		.byte	-49
+ 627 0257 01       		.byte	1
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 12
+
+
+ 628 0258 D0       		.byte	-48
+ 629 0259 18       		.byte	24
+ 630 025a D6       		.byte	-42
+ 631 025b 02       		.byte	2
+ 632 025c D7       		.byte	-41
+ 633 025d 2C       		.byte	44
+ 634 025e D8       		.byte	-40
+ 635 025f 04       		.byte	4
+ 636 0260 D9       		.byte	-39
+ 637 0261 04       		.byte	4
+ 638 0262 DA       		.byte	-38
+ 639 0263 04       		.byte	4
+ 640 0264 DB       		.byte	-37
+ 641 0265 04       		.byte	4
+ 642 0266 DD       		.byte	-35
+ 643 0267 01       		.byte	1
+ 644 0268 DF       		.byte	-33
+ 645 0269 01       		.byte	1
+ 646 026a E0       		.byte	-32
+ 647 026b 40       		.byte	64
+ 648 026c E2       		.byte	-30
+ 649 026d 40       		.byte	64
+ 650 026e E4       		.byte	-28
+ 651 026f 40       		.byte	64
+ 652 0270 E5       		.byte	-27
+ 653 0271 40       		.byte	64
+ 654 0272 E6       		.byte	-26
+ 655 0273 80       		.byte	-128
+ 656 0274 E8       		.byte	-24
+ 657 0275 80       		.byte	-128
+ 658 0276 EA       		.byte	-22
+ 659 0277 80       		.byte	-128
+ 660 0278 EC       		.byte	-20
+ 661 0279 80       		.byte	-128
+ 662 027a EE       		.byte	-18
+ 663 027b 80       		.byte	-128
+ 664 027c 00       		.byte	0
+ 665 027d 10       		.byte	16
+ 666 027e 02       		.byte	2
+ 667 027f 40       		.byte	64
+ 668 0280 07       		.byte	7
+ 669 0281 61       		.byte	97
+ 670 0282 0B       		.byte	11
+ 671 0283 02       		.byte	2
+ 672 0284 0C       		.byte	12
+ 673 0285 80       		.byte	-128
+ 674 0286 0D       		.byte	13
+ 675 0287 01       		.byte	1
+ 676 0288 0E       		.byte	14
+ 677 0289 24       		.byte	36
+ 678 028a 12       		.byte	18
+ 679 028b 20       		.byte	32
+ 680 028c 15       		.byte	21
+ 681 028d 04       		.byte	4
+ 682 028e 16       		.byte	22
+ 683 028f 40       		.byte	64
+ 684 0290 17       		.byte	23
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 13
+
+
+ 685 0291 08       		.byte	8
+ 686 0292 18       		.byte	24
+ 687 0293 10       		.byte	16
+ 688 0294 1E       		.byte	30
+ 689 0295 04       		.byte	4
+ 690 0296 21       		.byte	33
+ 691 0297 0A       		.byte	10
+ 692 0298 25       		.byte	37
+ 693 0299 40       		.byte	64
+ 694 029a 26       		.byte	38
+ 695 029b 84       		.byte	-124
+ 696 029c 29       		.byte	41
+ 697 029d 40       		.byte	64
+ 698 029e 2A       		.byte	42
+ 699 029f 40       		.byte	64
+ 700 02a0 2B       		.byte	43
+ 701 02a1 01       		.byte	1
+ 702 02a2 2F       		.byte	47
+ 703 02a3 A9       		.byte	-87
+ 704 02a4 32       		.byte	50
+ 705 02a5 60       		.byte	96
+ 706 02a6 36       		.byte	54
+ 707 02a7 A0       		.byte	-96
+ 708 02a8 37       		.byte	55
+ 709 02a9 29       		.byte	41
+ 710 02aa 39       		.byte	57
+ 711 02ab 1A       		.byte	26
+ 712 02ac 3B       		.byte	59
+ 713 02ad 02       		.byte	2
+ 714 02ae 3C       		.byte	60
+ 715 02af 80       		.byte	-128
+ 716 02b0 3F       		.byte	63
+ 717 02b1 02       		.byte	2
+ 718 02b2 41       		.byte	65
+ 719 02b3 40       		.byte	64
+ 720 02b4 42       		.byte	66
+ 721 02b5 80       		.byte	-128
+ 722 02b6 45       		.byte	69
+ 723 02b7 40       		.byte	64
+ 724 02b8 46       		.byte	70
+ 725 02b9 81       		.byte	-127
+ 726 02ba 48       		.byte	72
+ 727 02bb 04       		.byte	4
+ 728 02bc 4B       		.byte	75
+ 729 02bd 10       		.byte	16
+ 730 02be 4D       		.byte	77
+ 731 02bf 40       		.byte	64
+ 732 02c0 4F       		.byte	79
+ 733 02c1 10       		.byte	16
+ 734 02c2 60       		.byte	96
+ 735 02c3 80       		.byte	-128
+ 736 02c4 61       		.byte	97
+ 737 02c5 02       		.byte	2
+ 738 02c6 66       		.byte	102
+ 739 02c7 01       		.byte	1
+ 740 02c8 6D       		.byte	109
+ 741 02c9 2E       		.byte	46
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 14
+
+
+ 742 02ca 6E       		.byte	110
+ 743 02cb 20       		.byte	32
+ 744 02cc 6F       		.byte	111
+ 745 02cd C9       		.byte	-55
+ 746 02ce 74       		.byte	116
+ 747 02cf C0       		.byte	-64
+ 748 02d0 93       		.byte	-109
+ 749 02d1 02       		.byte	2
+ 750 02d2 94       		.byte	-108
+ 751 02d3 10       		.byte	16
+ 752 02d4 95       		.byte	-107
+ 753 02d5 40       		.byte	64
+ 754 02d6 99       		.byte	-103
+ 755 02d7 40       		.byte	64
+ 756 02d8 9A       		.byte	-102
+ 757 02d9 80       		.byte	-128
+ 758 02da 9C       		.byte	-100
+ 759 02db 80       		.byte	-128
+ 760 02dc 9F       		.byte	-97
+ 761 02dd 01       		.byte	1
+ 762 02de A0       		.byte	-96
+ 763 02df 04       		.byte	4
+ 764 02e0 A2       		.byte	-94
+ 765 02e1 20       		.byte	32
+ 766 02e2 A4       		.byte	-92
+ 767 02e3 80       		.byte	-128
+ 768 02e4 A5       		.byte	-91
+ 769 02e5 15       		.byte	21
+ 770 02e6 AB       		.byte	-85
+ 771 02e7 08       		.byte	8
+ 772 02e8 B1       		.byte	-79
+ 773 02e9 02       		.byte	2
+ 774 02ea B2       		.byte	-78
+ 775 02eb 04       		.byte	4
+ 776 02ec C0       		.byte	-64
+ 777 02ed BA       		.byte	-70
+ 778 02ee C2       		.byte	-62
+ 779 02ef F1       		.byte	-15
+ 780 02f0 C4       		.byte	-60
+ 781 02f1 34       		.byte	52
+ 782 02f2 CA       		.byte	-54
+ 783 02f3 F8       		.byte	-8
+ 784 02f4 CC       		.byte	-52
+ 785 02f5 FC       		.byte	-4
+ 786 02f6 CE       		.byte	-50
+ 787 02f7 97       		.byte	-105
+ 788 02f8 D0       		.byte	-48
+ 789 02f9 89       		.byte	-119
+ 790 02fa D2       		.byte	-46
+ 791 02fb 34       		.byte	52
+ 792 02fc D8       		.byte	-40
+ 793 02fd 80       		.byte	-128
+ 794 02fe E8       		.byte	-24
+ 795 02ff 04       		.byte	4
+ 796 0300 02       		.byte	2
+ 797 0301 10       		.byte	16
+ 798 0302 04       		.byte	4
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 15
+
+
+ 799 0303 04       		.byte	4
+ 800 0304 06       		.byte	6
+ 801 0305 09       		.byte	9
+ 802 0306 0A       		.byte	10
+ 803 0307 10       		.byte	16
+ 804 0308 0C       		.byte	12
+ 805 0309 0E       		.byte	14
+ 806 030a 0E       		.byte	14
+ 807 030b 01       		.byte	1
+ 808 030c 10       		.byte	16
+ 809 030d 01       		.byte	1
+ 810 030e 12       		.byte	18
+ 811 030f 02       		.byte	2
+ 812 0310 14       		.byte	20
+ 813 0311 08       		.byte	8
+ 814 0312 16       		.byte	22
+ 815 0313 04       		.byte	4
+ 816 0314 18       		.byte	24
+ 817 0315 09       		.byte	9
+ 818 0316 1C       		.byte	28
+ 819 0317 09       		.byte	9
+ 820 0318 20       		.byte	32
+ 821 0319 08       		.byte	8
+ 822 031a 22       		.byte	34
+ 823 031b 01       		.byte	1
+ 824 031c 24       		.byte	36
+ 825 031d 01       		.byte	1
+ 826 031e 26       		.byte	38
+ 827 031f 08       		.byte	8
+ 828 0320 2C       		.byte	44
+ 829 0321 09       		.byte	9
+ 830 0322 30       		.byte	48
+ 831 0323 10       		.byte	16
+ 832 0324 36       		.byte	54
+ 833 0325 0F       		.byte	15
+ 834 0326 3A       		.byte	58
+ 835 0327 C0       		.byte	-64
+ 836 0328 3E       		.byte	62
+ 837 0329 01       		.byte	1
+ 838 032a 40       		.byte	64
+ 839 032b 42       		.byte	66
+ 840 032c 41       		.byte	65
+ 841 032d 05       		.byte	5
+ 842 032e 45       		.byte	69
+ 843 032f EC       		.byte	-20
+ 844 0330 47       		.byte	71
+ 845 0331 02       		.byte	2
+ 846 0332 48       		.byte	72
+ 847 0333 13       		.byte	19
+ 848 0334 49       		.byte	73
+ 849 0335 FF       		.byte	-1
+ 850 0336 4A       		.byte	74
+ 851 0337 FF       		.byte	-1
+ 852 0338 4B       		.byte	75
+ 853 0339 FF       		.byte	-1
+ 854 033a 4D       		.byte	77
+ 855 033b 83       		.byte	-125
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 16
+
+
+ 856 033c 4E       		.byte	78
+ 857 033d 03       		.byte	3
+ 858 033e 4F       		.byte	79
+ 859 033f 01       		.byte	1
+ 860 0340 50       		.byte	80
+ 861 0341 18       		.byte	24
+ 862 0342 52       		.byte	82
+ 863 0343 80       		.byte	-128
+ 864 0344 54       		.byte	84
+ 865 0345 01       		.byte	1
+ 866 0346 58       		.byte	88
+ 867 0347 04       		.byte	4
+ 868 0348 5A       		.byte	90
+ 869 0349 04       		.byte	4
+ 870 034a 5B       		.byte	91
+ 871 034b 04       		.byte	4
+ 872 034c 5D       		.byte	93
+ 873 034d 11       		.byte	17
+ 874 034e 5F       		.byte	95
+ 875 034f 05       		.byte	5
+ 876 0350 60       		.byte	96
+ 877 0351 40       		.byte	64
+ 878 0352 62       		.byte	98
+ 879 0353 40       		.byte	64
+ 880 0354 64       		.byte	100
+ 881 0355 40       		.byte	64
+ 882 0356 65       		.byte	101
+ 883 0357 40       		.byte	64
+ 884 0358 66       		.byte	102
+ 885 0359 80       		.byte	-128
+ 886 035a 68       		.byte	104
+ 887 035b 80       		.byte	-128
+ 888 035c 6A       		.byte	106
+ 889 035d 80       		.byte	-128
+ 890 035e 6C       		.byte	108
+ 891 035f 80       		.byte	-128
+ 892 0360 6E       		.byte	110
+ 893 0361 80       		.byte	-128
+ 894 0362 80       		.byte	-128
+ 895 0363 0C       		.byte	12
+ 896 0364 82       		.byte	-126
+ 897 0365 02       		.byte	2
+ 898 0366 84       		.byte	-124
+ 899 0367 04       		.byte	4
+ 900 0368 86       		.byte	-122
+ 901 0369 08       		.byte	8
+ 902 036a 89       		.byte	-119
+ 903 036b 01       		.byte	1
+ 904 036c 8A       		.byte	-118
+ 905 036d 06       		.byte	6
+ 906 036e 8D       		.byte	-115
+ 907 036f 01       		.byte	1
+ 908 0370 8E       		.byte	-114
+ 909 0371 01       		.byte	1
+ 910 0372 90       		.byte	-112
+ 911 0373 01       		.byte	1
+ 912 0374 94       		.byte	-108
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 17
+
+
+ 913 0375 10       		.byte	16
+ 914 0376 98       		.byte	-104
+ 915 0377 01       		.byte	1
+ 916 0378 9C       		.byte	-100
+ 917 0379 0A       		.byte	10
+ 918 037a 9E       		.byte	-98
+ 919 037b 04       		.byte	4
+ 920 037c A0       		.byte	-96
+ 921 037d 01       		.byte	1
+ 922 037e A4       		.byte	-92
+ 923 037f 01       		.byte	1
+ 924 0380 A8       		.byte	-88
+ 925 0381 10       		.byte	16
+ 926 0382 AE       		.byte	-82
+ 927 0383 08       		.byte	8
+ 928 0384 B2       		.byte	-78
+ 929 0385 0E       		.byte	14
+ 930 0386 B4       		.byte	-76
+ 931 0387 01       		.byte	1
+ 932 0388 B5       		.byte	-75
+ 933 0389 01       		.byte	1
+ 934 038a B6       		.byte	-74
+ 935 038b 10       		.byte	16
+ 936 038c B8       		.byte	-72
+ 937 038d 80       		.byte	-128
+ 938 038e B9       		.byte	-71
+ 939 038f 20       		.byte	32
+ 940 0390 BE       		.byte	-66
+ 941 0391 50       		.byte	80
+ 942 0392 BF       		.byte	-65
+ 943 0393 10       		.byte	16
+ 944 0394 D4       		.byte	-44
+ 945 0395 09       		.byte	9
+ 946 0396 D8       		.byte	-40
+ 947 0397 04       		.byte	4
+ 948 0398 D9       		.byte	-39
+ 949 0399 04       		.byte	4
+ 950 039a DB       		.byte	-37
+ 951 039b 04       		.byte	4
+ 952 039c DF       		.byte	-33
+ 953 039d 01       		.byte	1
+ 954 039e 00       		.byte	0
+ 955 039f 02       		.byte	2
+ 956 03a0 02       		.byte	2
+ 957 03a1 20       		.byte	32
+ 958 03a2 03       		.byte	3
+ 959 03a3 19       		.byte	25
+ 960 03a4 05       		.byte	5
+ 961 03a5 40       		.byte	64
+ 962 03a6 06       		.byte	6
+ 963 03a7 84       		.byte	-124
+ 964 03a8 07       		.byte	7
+ 965 03a9 10       		.byte	16
+ 966 03aa 08       		.byte	8
+ 967 03ab 22       		.byte	34
+ 968 03ac 09       		.byte	9
+ 969 03ad 11       		.byte	17
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 18
+
+
+ 970 03ae 0B       		.byte	11
+ 971 03af 52       		.byte	82
+ 972 03b0 0C       		.byte	12
+ 973 03b1 90       		.byte	-112
+ 974 03b2 0D       		.byte	13
+ 975 03b3 0A       		.byte	10
+ 976 03b4 0E       		.byte	14
+ 977 03b5 10       		.byte	16
+ 978 03b6 10       		.byte	16
+ 979 03b7 D0       		.byte	-48
+ 980 03b8 11       		.byte	17
+ 981 03b9 18       		.byte	24
+ 982 03ba 12       		.byte	18
+ 983 03bb 01       		.byte	1
+ 984 03bc 14       		.byte	20
+ 985 03bd 22       		.byte	34
+ 986 03be 17       		.byte	23
+ 987 03bf 01       		.byte	1
+ 988 03c0 1A       		.byte	26
+ 989 03c1 08       		.byte	8
+ 990 03c2 1B       		.byte	27
+ 991 03c3 48       		.byte	72
+ 992 03c4 1C       		.byte	28
+ 993 03c5 02       		.byte	2
+ 994 03c6 1D       		.byte	29
+ 995 03c7 40       		.byte	64
+ 996 03c8 1E       		.byte	30
+ 997 03c9 40       		.byte	64
+ 998 03ca 23       		.byte	35
+ 999 03cb 08       		.byte	8
+ 1000 03cc 32       		.byte	50
+ 1001 03cd 04       		.byte	4
+ 1002 03ce 33       		.byte	51
+ 1003 03cf 04       		.byte	4
+ 1004 03d0 38       		.byte	56
+ 1005 03d1 10       		.byte	16
+ 1006 03d2 39       		.byte	57
+ 1007 03d3 80       		.byte	-128
+ 1008 03d4 3B       		.byte	59
+ 1009 03d5 10       		.byte	16
+ 1010 03d6 46       		.byte	70
+ 1011 03d7 84       		.byte	-124
+ 1012 03d8 4D       		.byte	77
+ 1013 03d9 44       		.byte	68
+ 1014 03da 4F       		.byte	79
+ 1015 03db 01       		.byte	1
+ 1016 03dc 54       		.byte	84
+ 1017 03dd 04       		.byte	4
+ 1018 03de 56       		.byte	86
+ 1019 03df 04       		.byte	4
+ 1020 03e0 58       		.byte	88
+ 1021 03e1 80       		.byte	-128
+ 1022 03e2 59       		.byte	89
+ 1023 03e3 06       		.byte	6
+ 1024 03e4 5A       		.byte	90
+ 1025 03e5 10       		.byte	16
+ 1026 03e6 5D       		.byte	93
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 19
+
+
+ 1027 03e7 04       		.byte	4
+ 1028 03e8 5E       		.byte	94
+ 1029 03e9 40       		.byte	64
+ 1030 03ea 5F       		.byte	95
+ 1031 03eb 01       		.byte	1
+ 1032 03ec 62       		.byte	98
+ 1033 03ed 80       		.byte	-128
+ 1034 03ee 69       		.byte	105
+ 1035 03ef 90       		.byte	-112
+ 1036 03f0 76       		.byte	118
+ 1037 03f1 80       		.byte	-128
+ 1038 03f2 7D       		.byte	125
+ 1039 03f3 40       		.byte	64
+ 1040 03f4 87       		.byte	-121
+ 1041 03f5 08       		.byte	8
+ 1042 03f6 8F       		.byte	-113
+ 1043 03f7 50       		.byte	80
+ 1044 03f8 93       		.byte	-109
+ 1045 03f9 02       		.byte	2
+ 1046 03fa 97       		.byte	-105
+ 1047 03fb 40       		.byte	64
+ 1048 03fc 99       		.byte	-103
+ 1049 03fd 04       		.byte	4
+ 1050 03fe 9A       		.byte	-102
+ 1051 03ff 01       		.byte	1
+ 1052 0400 9C       		.byte	-100
+ 1053 0401 70       		.byte	112
+ 1054 0402 9F       		.byte	-97
+ 1055 0403 05       		.byte	5
+ 1056 0404 A1       		.byte	-95
+ 1057 0405 0A       		.byte	10
+ 1058 0406 A2       		.byte	-94
+ 1059 0407 A0       		.byte	-96
+ 1060 0408 A3       		.byte	-93
+ 1061 0409 10       		.byte	16
+ 1062 040a A4       		.byte	-92
+ 1063 040b 01       		.byte	1
+ 1064 040c B2       		.byte	-78
+ 1065 040d 04       		.byte	4
+ 1066 040e C0       		.byte	-64
+ 1067 040f FF       		.byte	-1
+ 1068 0410 C2       		.byte	-62
+ 1069 0411 FF       		.byte	-1
+ 1070 0412 C4       		.byte	-60
+ 1071 0413 BF       		.byte	-65
+ 1072 0414 CE       		.byte	-50
+ 1073 0415 0C       		.byte	12
+ 1074 0416 D0       		.byte	-48
+ 1075 0417 A0       		.byte	-96
+ 1076 0418 D2       		.byte	-46
+ 1077 0419 10       		.byte	16
+ 1078 041a D6       		.byte	-42
+ 1079 041b DF       		.byte	-33
+ 1080 041c D8       		.byte	-40
+ 1081 041d 08       		.byte	8
+ 1082 041e DE       		.byte	-34
+ 1083 041f 10       		.byte	16
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 20
+
+
+ 1084 0420 EC       		.byte	-20
+ 1085 0421 20       		.byte	32
+ 1086 0422 00       		.byte	0
+ 1087 0423 01       		.byte	1
+ 1088 0424 01       		.byte	1
+ 1089 0425 01       		.byte	1
+ 1090 0426 09       		.byte	9
+ 1091 0427 01       		.byte	1
+ 1092 0428 0D       		.byte	13
+ 1093 0429 02       		.byte	2
+ 1094 042a 10       		.byte	16
+ 1095 042b 01       		.byte	1
+ 1096 042c 13       		.byte	19
+ 1097 042d 02       		.byte	2
+ 1098 042e 19       		.byte	25
+ 1099 042f 02       		.byte	2
+ 1100 0430 1D       		.byte	29
+ 1101 0431 01       		.byte	1
+ 1102 0432 21       		.byte	33
+ 1103 0433 02       		.byte	2
+ 1104 0434 25       		.byte	37
+ 1105 0435 02       		.byte	2
+ 1106 0436 26       		.byte	38
+ 1107 0437 01       		.byte	1
+ 1108 0438 2F       		.byte	47
+ 1109 0439 02       		.byte	2
+ 1110 043a 33       		.byte	51
+ 1111 043b 02       		.byte	2
+ 1112 043c 34       		.byte	52
+ 1113 043d 01       		.byte	1
+ 1114 043e 37       		.byte	55
+ 1115 043f 01       		.byte	1
+ 1116 0440 38       		.byte	56
+ 1117 0441 20       		.byte	32
+ 1118 0442 3F       		.byte	63
+ 1119 0443 44       		.byte	68
+ 1120 0444 40       		.byte	64
+ 1121 0445 65       		.byte	101
+ 1122 0446 41       		.byte	65
+ 1123 0447 04       		.byte	4
+ 1124 0448 42       		.byte	66
+ 1125 0449 30       		.byte	48
+ 1126 044a 44       		.byte	68
+ 1127 044b 02       		.byte	2
+ 1128 044c 45       		.byte	69
+ 1129 044d 0E       		.byte	14
+ 1130 044e 46       		.byte	70
+ 1131 044f FD       		.byte	-3
+ 1132 0450 47       		.byte	71
+ 1133 0451 BC       		.byte	-68
+ 1134 0452 48       		.byte	72
+ 1135 0453 3D       		.byte	61
+ 1136 0454 49       		.byte	73
+ 1137 0455 FF       		.byte	-1
+ 1138 0456 4A       		.byte	74
+ 1139 0457 FF       		.byte	-1
+ 1140 0458 4B       		.byte	75
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 21
+
+
+ 1141 0459 FF       		.byte	-1
+ 1142 045a 4C       		.byte	76
+ 1143 045b 22       		.byte	34
+ 1144 045c 4E       		.byte	78
+ 1145 045d F0       		.byte	-16
+ 1146 045e 4F       		.byte	79
+ 1147 045f 0C       		.byte	12
+ 1148 0460 50       		.byte	80
+ 1149 0461 04       		.byte	4
+ 1150 0462 54       		.byte	84
+ 1151 0463 40       		.byte	64
+ 1152 0464 58       		.byte	88
+ 1153 0465 04       		.byte	4
+ 1154 0466 59       		.byte	89
+ 1155 0467 04       		.byte	4
+ 1156 0468 5A       		.byte	90
+ 1157 0469 04       		.byte	4
+ 1158 046a 5B       		.byte	91
+ 1159 046b 04       		.byte	4
+ 1160 046c 5F       		.byte	95
+ 1161 046d 01       		.byte	1
+ 1162 046e 62       		.byte	98
+ 1163 046f C0       		.byte	-64
+ 1164 0470 64       		.byte	100
+ 1165 0471 40       		.byte	64
+ 1166 0472 65       		.byte	101
+ 1167 0473 01       		.byte	1
+ 1168 0474 66       		.byte	102
+ 1169 0475 10       		.byte	16
+ 1170 0476 67       		.byte	103
+ 1171 0477 11       		.byte	17
+ 1172 0478 68       		.byte	104
+ 1173 0479 C0       		.byte	-64
+ 1174 047a 69       		.byte	105
+ 1175 047b 01       		.byte	1
+ 1176 047c 6B       		.byte	107
+ 1177 047d 11       		.byte	17
+ 1178 047e 6C       		.byte	108
+ 1179 047f 40       		.byte	64
+ 1180 0480 6D       		.byte	109
+ 1181 0481 01       		.byte	1
+ 1182 0482 6E       		.byte	110
+ 1183 0483 40       		.byte	64
+ 1184 0484 6F       		.byte	111
+ 1185 0485 01       		.byte	1
+ 1186 0486 80       		.byte	-128
+ 1187 0487 03       		.byte	3
+ 1188 0488 81       		.byte	-127
+ 1189 0489 03       		.byte	3
+ 1190 048a 83       		.byte	-125
+ 1191 048b 18       		.byte	24
+ 1192 048c 8A       		.byte	-118
+ 1193 048d 03       		.byte	3
+ 1194 048e 8D       		.byte	-115
+ 1195 048f 12       		.byte	18
+ 1196 0490 90       		.byte	-112
+ 1197 0491 03       		.byte	3
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 22
+
+
+ 1198 0492 91       		.byte	-111
+ 1199 0493 02       		.byte	2
+ 1200 0494 93       		.byte	-109
+ 1201 0495 10       		.byte	16
+ 1202 0496 94       		.byte	-108
+ 1203 0497 01       		.byte	1
+ 1204 0498 95       		.byte	-107
+ 1205 0499 01       		.byte	1
+ 1206 049a 97       		.byte	-105
+ 1207 049b 14       		.byte	20
+ 1208 049c 98       		.byte	-104
+ 1209 049d 03       		.byte	3
+ 1210 049e 99       		.byte	-103
+ 1211 049f 12       		.byte	18
+ 1212 04a0 9C       		.byte	-100
+ 1213 04a1 03       		.byte	3
+ 1214 04a2 A0       		.byte	-96
+ 1215 04a3 01       		.byte	1
+ 1216 04a4 A1       		.byte	-95
+ 1217 04a5 12       		.byte	18
+ 1218 04a6 A2       		.byte	-94
+ 1219 04a7 02       		.byte	2
+ 1220 04a8 A4       		.byte	-92
+ 1221 04a9 02       		.byte	2
+ 1222 04aa A5       		.byte	-91
+ 1223 04ab 10       		.byte	16
+ 1224 04ac A6       		.byte	-90
+ 1225 04ad 01       		.byte	1
+ 1226 04ae A7       		.byte	-89
+ 1227 04af 02       		.byte	2
+ 1228 04b0 A9       		.byte	-87
+ 1229 04b1 02       		.byte	2
+ 1230 04b2 AC       		.byte	-84
+ 1231 04b3 01       		.byte	1
+ 1232 04b4 AD       		.byte	-83
+ 1233 04b5 03       		.byte	3
+ 1234 04b6 AE       		.byte	-82
+ 1235 04b7 02       		.byte	2
+ 1236 04b8 AF       		.byte	-81
+ 1237 04b9 0C       		.byte	12
+ 1238 04ba B0       		.byte	-80
+ 1239 04bb 03       		.byte	3
+ 1240 04bc B5       		.byte	-75
+ 1241 04bd 1F       		.byte	31
+ 1242 04be B9       		.byte	-71
+ 1243 04bf 20       		.byte	32
+ 1244 04c0 D8       		.byte	-40
+ 1245 04c1 04       		.byte	4
+ 1246 04c2 D9       		.byte	-39
+ 1247 04c3 04       		.byte	4
+ 1248 04c4 DF       		.byte	-33
+ 1249 04c5 01       		.byte	1
+ 1250 04c6 00       		.byte	0
+ 1251 04c7 02       		.byte	2
+ 1252 04c8 03       		.byte	3
+ 1253 04c9 40       		.byte	64
+ 1254 04ca 06       		.byte	6
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 23
+
+
+ 1255 04cb 80       		.byte	-128
+ 1256 04cc 07       		.byte	7
+ 1257 04cd 08       		.byte	8
+ 1258 04ce 09       		.byte	9
+ 1259 04cf 02       		.byte	2
+ 1260 04d0 0C       		.byte	12
+ 1261 04d1 50       		.byte	80
+ 1262 04d2 0D       		.byte	13
+ 1263 04d3 0A       		.byte	10
+ 1264 04d4 13       		.byte	19
+ 1265 04d5 08       		.byte	8
+ 1266 04d6 14       		.byte	20
+ 1267 04d7 20       		.byte	32
+ 1268 04d8 17       		.byte	23
+ 1269 04d9 41       		.byte	65
+ 1270 04da 1B       		.byte	27
+ 1271 04db 10       		.byte	16
+ 1272 04dc 1D       		.byte	29
+ 1273 04dd 02       		.byte	2
+ 1274 04de 1F       		.byte	31
+ 1275 04df 01       		.byte	1
+ 1276 04e0 20       		.byte	32
+ 1277 04e1 10       		.byte	16
+ 1278 04e2 22       		.byte	34
+ 1279 04e3 80       		.byte	-128
+ 1280 04e4 26       		.byte	38
+ 1281 04e5 20       		.byte	32
+ 1282 04e6 27       		.byte	39
+ 1283 04e7 08       		.byte	8
+ 1284 04e8 28       		.byte	40
+ 1285 04e9 60       		.byte	96
+ 1286 04ea 2A       		.byte	42
+ 1287 04eb 40       		.byte	64
+ 1288 04ec 2B       		.byte	43
+ 1289 04ed 20       		.byte	32
+ 1290 04ee 2C       		.byte	44
+ 1291 04ef 40       		.byte	64
+ 1292 04f0 2F       		.byte	47
+ 1293 04f1 25       		.byte	37
+ 1294 04f2 30       		.byte	48
+ 1295 04f3 10       		.byte	16
+ 1296 04f4 33       		.byte	51
+ 1297 04f5 41       		.byte	65
+ 1298 04f6 34       		.byte	52
+ 1299 04f7 10       		.byte	16
+ 1300 04f8 37       		.byte	55
+ 1301 04f9 09       		.byte	9
+ 1302 04fa 3A       		.byte	58
+ 1303 04fb 80       		.byte	-128
+ 1304 04fc 3B       		.byte	59
+ 1305 04fd 62       		.byte	98
+ 1306 04fe 3C       		.byte	60
+ 1307 04ff 02       		.byte	2
+ 1308 0500 3F       		.byte	63
+ 1309 0501 40       		.byte	64
+ 1310 0502 41       		.byte	65
+ 1311 0503 02       		.byte	2
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 24
+
+
+ 1312 0504 42       		.byte	66
+ 1313 0505 04       		.byte	4
+ 1314 0506 43       		.byte	67
+ 1315 0507 04       		.byte	4
+ 1316 0508 48       		.byte	72
+ 1317 0509 01       		.byte	1
+ 1318 050a 49       		.byte	73
+ 1319 050b 04       		.byte	4
+ 1320 050c 4B       		.byte	75
+ 1321 050d 20       		.byte	32
+ 1322 050e 51       		.byte	81
+ 1323 050f 08       		.byte	8
+ 1324 0510 52       		.byte	82
+ 1325 0511 51       		.byte	81
+ 1326 0512 53       		.byte	83
+ 1327 0513 04       		.byte	4
+ 1328 0514 60       		.byte	96
+ 1329 0515 10       		.byte	16
+ 1330 0516 62       		.byte	98
+ 1331 0517 50       		.byte	80
+ 1332 0518 7E       		.byte	126
+ 1333 0519 20       		.byte	32
+ 1334 051a 7F       		.byte	127
+ 1335 051b 10       		.byte	16
+ 1336 051c C0       		.byte	-64
+ 1337 051d 58       		.byte	88
+ 1338 051e C2       		.byte	-62
+ 1339 051f F8       		.byte	-8
+ 1340 0520 C4       		.byte	-60
+ 1341 0521 B4       		.byte	-76
+ 1342 0522 CA       		.byte	-54
+ 1343 0523 FB       		.byte	-5
+ 1344 0524 CC       		.byte	-52
+ 1345 0525 ED       		.byte	-19
+ 1346 0526 CE       		.byte	-50
+ 1347 0527 9D       		.byte	-99
+ 1348 0528 D0       		.byte	-48
+ 1349 0529 07       		.byte	7
+ 1350 052a D2       		.byte	-46
+ 1351 052b 0C       		.byte	12
+ 1352 052c D8       		.byte	-40
+ 1353 052d 0E       		.byte	14
+ 1354 052e E6       		.byte	-26
+ 1355 052f 02       		.byte	2
+ 1356 0530 B8       		.byte	-72
+ 1357 0531 80       		.byte	-128
+ 1358 0532 BE       		.byte	-66
+ 1359 0533 40       		.byte	64
+ 1360 0534 D8       		.byte	-40
+ 1361 0535 04       		.byte	4
+ 1362 0536 DF       		.byte	-33
+ 1363 0537 01       		.byte	1
+ 1364 0538 1A       		.byte	26
+ 1365 0539 02       		.byte	2
+ 1366 053a 86       		.byte	-122
+ 1367 053b 01       		.byte	1
+ 1368 053c 01       		.byte	1
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 25
+
+
+ 1369 053d 10       		.byte	16
+ 1370 053e 04       		.byte	4
+ 1371 053f 03       		.byte	3
+ 1372 0540 06       		.byte	6
+ 1373 0541 1C       		.byte	28
+ 1374 0542 0D       		.byte	13
+ 1375 0543 14       		.byte	20
+ 1376 0544 11       		.byte	17
+ 1377 0545 1C       		.byte	28
+ 1378 0546 13       		.byte	19
+ 1379 0547 02       		.byte	2
+ 1380 0548 14       		.byte	20
+ 1381 0549 03       		.byte	3
+ 1382 054a 16       		.byte	22
+ 1383 054b 34       		.byte	52
+ 1384 054c 17       		.byte	23
+ 1385 054d 03       		.byte	3
+ 1386 054e 18       		.byte	24
+ 1387 054f 03       		.byte	3
+ 1388 0550 19       		.byte	25
+ 1389 0551 10       		.byte	16
+ 1390 0552 1A       		.byte	26
+ 1391 0553 04       		.byte	4
+ 1392 0554 1B       		.byte	27
+ 1393 0555 0C       		.byte	12
+ 1394 0556 1C       		.byte	28
+ 1395 0557 2A       		.byte	42
+ 1396 0558 1E       		.byte	30
+ 1397 0559 14       		.byte	20
+ 1398 055a 22       		.byte	34
+ 1399 055b 20       		.byte	32
+ 1400 055c 26       		.byte	38
+ 1401 055d 15       		.byte	21
+ 1402 055e 29       		.byte	41
+ 1403 055f 0C       		.byte	12
+ 1404 0560 2B       		.byte	43
+ 1405 0561 11       		.byte	17
+ 1406 0562 2D       		.byte	45
+ 1407 0563 09       		.byte	9
+ 1408 0564 2E       		.byte	46
+ 1409 0565 28       		.byte	40
+ 1410 0566 2F       		.byte	47
+ 1411 0567 10       		.byte	16
+ 1412 0568 32       		.byte	50
+ 1413 0569 38       		.byte	56
+ 1414 056a 34       		.byte	52
+ 1415 056b 0F       		.byte	15
+ 1416 056c 35       		.byte	53
+ 1417 056d 1F       		.byte	31
+ 1418 056e 3A       		.byte	58
+ 1419 056f 28       		.byte	40
+ 1420 0570 58       		.byte	88
+ 1421 0571 04       		.byte	4
+ 1422 0572 59       		.byte	89
+ 1423 0573 04       		.byte	4
+ 1424 0574 5B       		.byte	91
+ 1425 0575 04       		.byte	4
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 26
+
+
+ 1426 0576 5C       		.byte	92
+ 1427 0577 22       		.byte	34
+ 1428 0578 5F       		.byte	95
+ 1429 0579 01       		.byte	1
+ 1430 057a 84       		.byte	-124
+ 1431 057b 01       		.byte	1
+ 1432 057c 86       		.byte	-122
+ 1433 057d 0A       		.byte	10
+ 1434 057e 8B       		.byte	-117
+ 1435 057f 04       		.byte	4
+ 1436 0580 8F       		.byte	-113
+ 1437 0581 01       		.byte	1
+ 1438 0582 94       		.byte	-108
+ 1439 0583 02       		.byte	2
+ 1440 0584 95       		.byte	-107
+ 1441 0585 04       		.byte	4
+ 1442 0586 96       		.byte	-106
+ 1443 0587 15       		.byte	21
+ 1444 0588 9B       		.byte	-101
+ 1445 0589 01       		.byte	1
+ 1446 058a 9C       		.byte	-100
+ 1447 058b 04       		.byte	4
+ 1448 058c 9E       		.byte	-98
+ 1449 058d 0A       		.byte	10
+ 1450 058e A4       		.byte	-92
+ 1451 058f 07       		.byte	7
+ 1452 0590 A7       		.byte	-89
+ 1453 0591 04       		.byte	4
+ 1454 0592 A8       		.byte	-88
+ 1455 0593 07       		.byte	7
+ 1456 0594 A9       		.byte	-87
+ 1457 0595 02       		.byte	2
+ 1458 0596 AD       		.byte	-83
+ 1459 0597 04       		.byte	4
+ 1460 0598 B1       		.byte	-79
+ 1461 0599 01       		.byte	1
+ 1462 059a B2       		.byte	-78
+ 1463 059b 07       		.byte	7
+ 1464 059c B3       		.byte	-77
+ 1465 059d 02       		.byte	2
+ 1466 059e B4       		.byte	-76
+ 1467 059f 18       		.byte	24
+ 1468 05a0 B5       		.byte	-75
+ 1469 05a1 04       		.byte	4
+ 1470 05a2 B9       		.byte	-71
+ 1471 05a3 20       		.byte	32
+ 1472 05a4 BE       		.byte	-66
+ 1473 05a5 10       		.byte	16
+ 1474 05a6 BF       		.byte	-65
+ 1475 05a7 05       		.byte	5
+ 1476 05a8 C0       		.byte	-64
+ 1477 05a9 43       		.byte	67
+ 1478 05aa C1       		.byte	-63
+ 1479 05ab 06       		.byte	6
+ 1480 05ac C2       		.byte	-62
+ 1481 05ad 05       		.byte	5
+ 1482 05ae C4       		.byte	-60
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 27
+
+
+ 1483 05af 02       		.byte	2
+ 1484 05b0 C5       		.byte	-59
+ 1485 05b1 E0       		.byte	-32
+ 1486 05b2 C6       		.byte	-58
+ 1487 05b3 0C       		.byte	12
+ 1488 05b4 C8       		.byte	-56
+ 1489 05b5 06       		.byte	6
+ 1490 05b6 C9       		.byte	-55
+ 1491 05b7 FF       		.byte	-1
+ 1492 05b8 CA       		.byte	-54
+ 1493 05b9 FF       		.byte	-1
+ 1494 05ba CB       		.byte	-53
+ 1495 05bb FF       		.byte	-1
+ 1496 05bc CC       		.byte	-52
+ 1497 05bd 62       		.byte	98
+ 1498 05be CD       		.byte	-51
+ 1499 05bf A0       		.byte	-96
+ 1500 05c0 CE       		.byte	-50
+ 1501 05c1 F0       		.byte	-16
+ 1502 05c2 CF       		.byte	-49
+ 1503 05c3 41       		.byte	65
+ 1504 05c4 D0       		.byte	-48
+ 1505 05c5 0C       		.byte	12
+ 1506 05c6 D6       		.byte	-42
+ 1507 05c7 02       		.byte	2
+ 1508 05c8 D7       		.byte	-41
+ 1509 05c9 13       		.byte	19
+ 1510 05ca D8       		.byte	-40
+ 1511 05cb 04       		.byte	4
+ 1512 05cc D9       		.byte	-39
+ 1513 05cd 04       		.byte	4
+ 1514 05ce DA       		.byte	-38
+ 1515 05cf 04       		.byte	4
+ 1516 05d0 DB       		.byte	-37
+ 1517 05d1 04       		.byte	4
+ 1518 05d2 DC       		.byte	-36
+ 1519 05d3 22       		.byte	34
+ 1520 05d4 DD       		.byte	-35
+ 1521 05d5 22       		.byte	34
+ 1522 05d6 DF       		.byte	-33
+ 1523 05d7 01       		.byte	1
+ 1524 05d8 E6       		.byte	-26
+ 1525 05d9 40       		.byte	64
+ 1526 05da E7       		.byte	-25
+ 1527 05db 02       		.byte	2
+ 1528 05dc E9       		.byte	-23
+ 1529 05dd 10       		.byte	16
+ 1530 05de EA       		.byte	-22
+ 1531 05df 30       		.byte	48
+ 1532 05e0 EB       		.byte	-21
+ 1533 05e1 10       		.byte	16
+ 1534 05e2 ED       		.byte	-19
+ 1535 05e3 10       		.byte	16
+ 1536 05e4 EE       		.byte	-18
+ 1537 05e5 10       		.byte	16
+ 1538 05e6 EF       		.byte	-17
+ 1539 05e7 12       		.byte	18
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 28
+
+
+ 1540 05e8 00       		.byte	0
+ 1541 05e9 08       		.byte	8
+ 1542 05ea 06       		.byte	6
+ 1543 05eb 10       		.byte	16
+ 1544 05ec 08       		.byte	8
+ 1545 05ed 02       		.byte	2
+ 1546 05ee 09       		.byte	9
+ 1547 05ef 02       		.byte	2
+ 1548 05f0 0A       		.byte	10
+ 1549 05f1 20       		.byte	32
+ 1550 05f2 0B       		.byte	11
+ 1551 05f3 01       		.byte	1
+ 1552 05f4 0E       		.byte	14
+ 1553 05f5 22       		.byte	34
+ 1554 05f6 0F       		.byte	15
+ 1555 05f7 08       		.byte	8
+ 1556 05f8 11       		.byte	17
+ 1557 05f9 14       		.byte	20
+ 1558 05fa 14       		.byte	20
+ 1559 05fb 10       		.byte	16
+ 1560 05fc 15       		.byte	21
+ 1561 05fd 41       		.byte	65
+ 1562 05fe 1A       		.byte	26
+ 1563 05ff 20       		.byte	32
+ 1564 0600 1B       		.byte	27
+ 1565 0601 20       		.byte	32
+ 1566 0602 1D       		.byte	29
+ 1567 0603 10       		.byte	16
+ 1568 0604 1E       		.byte	30
+ 1569 0605 20       		.byte	32
+ 1570 0606 1F       		.byte	31
+ 1571 0607 04       		.byte	4
+ 1572 0608 20       		.byte	32
+ 1573 0609 20       		.byte	32
+ 1574 060a 21       		.byte	33
+ 1575 060b 02       		.byte	2
+ 1576 060c 23       		.byte	35
+ 1577 060d 04       		.byte	4
+ 1578 060e 27       		.byte	39
+ 1579 060f 04       		.byte	4
+ 1580 0610 28       		.byte	40
+ 1581 0611 08       		.byte	8
+ 1582 0612 29       		.byte	41
+ 1583 0613 80       		.byte	-128
+ 1584 0614 2B       		.byte	43
+ 1585 0615 10       		.byte	16
+ 1586 0616 2D       		.byte	45
+ 1587 0617 40       		.byte	64
+ 1588 0618 2F       		.byte	47
+ 1589 0619 05       		.byte	5
+ 1590 061a 32       		.byte	50
+ 1591 061b 28       		.byte	40
+ 1592 061c 34       		.byte	52
+ 1593 061d 08       		.byte	8
+ 1594 061e 35       		.byte	53
+ 1595 061f 10       		.byte	16
+ 1596 0620 36       		.byte	54
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 29
+
+
+ 1597 0621 01       		.byte	1
+ 1598 0622 37       		.byte	55
+ 1599 0623 04       		.byte	4
+ 1600 0624 38       		.byte	56
+ 1601 0625 80       		.byte	-128
+ 1602 0626 3A       		.byte	58
+ 1603 0627 20       		.byte	32
+ 1604 0628 3D       		.byte	61
+ 1605 0629 01       		.byte	1
+ 1606 062a 3F       		.byte	63
+ 1607 062b 80       		.byte	-128
+ 1608 062c 40       		.byte	64
+ 1609 062d 80       		.byte	-128
+ 1610 062e 41       		.byte	65
+ 1611 062f 08       		.byte	8
+ 1612 0630 43       		.byte	67
+ 1613 0631 28       		.byte	40
+ 1614 0632 49       		.byte	73
+ 1615 0633 02       		.byte	2
+ 1616 0634 4A       		.byte	74
+ 1617 0635 08       		.byte	8
+ 1618 0636 4B       		.byte	75
+ 1619 0637 40       		.byte	64
+ 1620 0638 50       		.byte	80
+ 1621 0639 40       		.byte	64
+ 1622 063a 58       		.byte	88
+ 1623 063b 80       		.byte	-128
+ 1624 063c 59       		.byte	89
+ 1625 063d 81       		.byte	-127
+ 1626 063e 5C       		.byte	92
+ 1627 063f 40       		.byte	64
+ 1628 0640 65       		.byte	101
+ 1629 0641 10       		.byte	16
+ 1630 0642 66       		.byte	102
+ 1631 0643 10       		.byte	16
+ 1632 0644 69       		.byte	105
+ 1633 0645 1C       		.byte	28
+ 1634 0646 6A       		.byte	106
+ 1635 0647 80       		.byte	-128
+ 1636 0648 6B       		.byte	107
+ 1637 0649 10       		.byte	16
+ 1638 064a 70       		.byte	112
+ 1639 064b A0       		.byte	-96
+ 1640 064c 71       		.byte	113
+ 1641 064d 04       		.byte	4
+ 1642 064e 84       		.byte	-124
+ 1643 064f 10       		.byte	16
+ 1644 0650 8A       		.byte	-118
+ 1645 0651 20       		.byte	32
+ 1646 0652 8B       		.byte	-117
+ 1647 0653 40       		.byte	64
+ 1648 0654 8D       		.byte	-115
+ 1649 0655 0C       		.byte	12
+ 1650 0656 8E       		.byte	-114
+ 1651 0657 02       		.byte	2
+ 1652 0658 8F       		.byte	-113
+ 1653 0659 40       		.byte	64
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 30
+
+
+ 1654 065a 90       		.byte	-112
+ 1655 065b 40       		.byte	64
+ 1656 065c 92       		.byte	-110
+ 1657 065d 40       		.byte	64
+ 1658 065e 95       		.byte	-107
+ 1659 065f 18       		.byte	24
+ 1660 0660 96       		.byte	-106
+ 1661 0661 80       		.byte	-128
+ 1662 0662 99       		.byte	-103
+ 1663 0663 01       		.byte	1
+ 1664 0664 9A       		.byte	-102
+ 1665 0665 20       		.byte	32
+ 1666 0666 9C       		.byte	-100
+ 1667 0667 10       		.byte	16
+ 1668 0668 9D       		.byte	-99
+ 1669 0669 A4       		.byte	-92
+ 1670 066a 9E       		.byte	-98
+ 1671 066b 10       		.byte	16
+ 1672 066c A1       		.byte	-95
+ 1673 066d 08       		.byte	8
+ 1674 066e A2       		.byte	-94
+ 1675 066f 20       		.byte	32
+ 1676 0670 A3       		.byte	-93
+ 1677 0671 54       		.byte	84
+ 1678 0672 A4       		.byte	-92
+ 1679 0673 A0       		.byte	-96
+ 1680 0674 A6       		.byte	-90
+ 1681 0675 1B       		.byte	27
+ 1682 0676 A8       		.byte	-88
+ 1683 0677 20       		.byte	32
+ 1684 0678 AB       		.byte	-85
+ 1685 0679 04       		.byte	4
+ 1686 067a B0       		.byte	-80
+ 1687 067b 21       		.byte	33
+ 1688 067c B1       		.byte	-79
+ 1689 067d 02       		.byte	2
+ 1690 067e B3       		.byte	-77
+ 1691 067f 20       		.byte	32
+ 1692 0680 B4       		.byte	-76
+ 1693 0681 04       		.byte	4
+ 1694 0682 B6       		.byte	-74
+ 1695 0683 40       		.byte	64
+ 1696 0684 C0       		.byte	-64
+ 1697 0685 24       		.byte	36
+ 1698 0686 C2       		.byte	-62
+ 1699 0687 E5       		.byte	-27
+ 1700 0688 C4       		.byte	-60
+ 1701 0689 B6       		.byte	-74
+ 1702 068a CA       		.byte	-54
+ 1703 068b 3E       		.byte	62
+ 1704 068c CC       		.byte	-52
+ 1705 068d E6       		.byte	-26
+ 1706 068e CE       		.byte	-50
+ 1707 068f 9C       		.byte	-100
+ 1708 0690 D0       		.byte	-48
+ 1709 0691 07       		.byte	7
+ 1710 0692 D2       		.byte	-46
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 31
+
+
+ 1711 0693 0C       		.byte	12
+ 1712 0694 D6       		.byte	-42
+ 1713 0695 11       		.byte	17
+ 1714 0696 E0       		.byte	-32
+ 1715 0697 08       		.byte	8
+ 1716 0698 00       		.byte	0
+ 1717 0699 0C       		.byte	12
+ 1718 069a 01       		.byte	1
+ 1719 069b 09       		.byte	9
+ 1720 069c 03       		.byte	3
+ 1721 069d 10       		.byte	16
+ 1722 069e 04       		.byte	4
+ 1723 069f 01       		.byte	1
+ 1724 06a0 07       		.byte	7
+ 1725 06a1 04       		.byte	4
+ 1726 06a2 08       		.byte	8
+ 1727 06a3 0F       		.byte	15
+ 1728 06a4 09       		.byte	9
+ 1729 06a5 18       		.byte	24
+ 1730 06a6 0C       		.byte	12
+ 1731 06a7 03       		.byte	3
+ 1732 06a8 0D       		.byte	13
+ 1733 06a9 12       		.byte	18
+ 1734 06aa 0E       		.byte	14
+ 1735 06ab 0C       		.byte	12
+ 1736 06ac 0F       		.byte	15
+ 1737 06ad 08       		.byte	8
+ 1738 06ae 10       		.byte	16
+ 1739 06af 0F       		.byte	15
+ 1740 06b0 11       		.byte	17
+ 1741 06b1 03       		.byte	3
+ 1742 06b2 14       		.byte	20
+ 1743 06b3 03       		.byte	3
+ 1744 06b4 17       		.byte	23
+ 1745 06b5 03       		.byte	3
+ 1746 06b6 19       		.byte	25
+ 1747 06b7 18       		.byte	24
+ 1748 06b8 1C       		.byte	28
+ 1749 06b9 02       		.byte	2
+ 1750 06ba 1D       		.byte	29
+ 1751 06bb 03       		.byte	3
+ 1752 06bc 20       		.byte	32
+ 1753 06bd 08       		.byte	8
+ 1754 06be 23       		.byte	35
+ 1755 06bf 04       		.byte	4
+ 1756 06c0 24       		.byte	36
+ 1757 06c1 04       		.byte	4
+ 1758 06c2 27       		.byte	39
+ 1759 06c3 03       		.byte	3
+ 1760 06c4 28       		.byte	40
+ 1761 06c5 0C       		.byte	12
+ 1762 06c6 2A       		.byte	42
+ 1763 06c7 03       		.byte	3
+ 1764 06c8 2B       		.byte	43
+ 1765 06c9 03       		.byte	3
+ 1766 06ca 2D       		.byte	45
+ 1767 06cb 03       		.byte	3
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 32
+
+
+ 1768 06cc 2E       		.byte	46
+ 1769 06cd 03       		.byte	3
+ 1770 06ce 31       		.byte	49
+ 1771 06cf 03       		.byte	3
+ 1772 06d0 35       		.byte	53
+ 1773 06d1 04       		.byte	4
+ 1774 06d2 36       		.byte	54
+ 1775 06d3 0F       		.byte	15
+ 1776 06d4 37       		.byte	55
+ 1777 06d5 18       		.byte	24
+ 1778 06d6 3A       		.byte	58
+ 1779 06d7 80       		.byte	-128
+ 1780 06d8 3B       		.byte	59
+ 1781 06d9 08       		.byte	8
+ 1782 06da 3F       		.byte	63
+ 1783 06db 10       		.byte	16
+ 1784 06dc 54       		.byte	84
+ 1785 06dd 18       		.byte	24
+ 1786 06de 56       		.byte	86
+ 1787 06df 04       		.byte	4
+ 1788 06e0 58       		.byte	88
+ 1789 06e1 04       		.byte	4
+ 1790 06e2 59       		.byte	89
+ 1791 06e3 04       		.byte	4
+ 1792 06e4 5B       		.byte	91
+ 1793 06e5 04       		.byte	4
+ 1794 06e6 5C       		.byte	92
+ 1795 06e7 22       		.byte	34
+ 1796 06e8 5D       		.byte	93
+ 1797 06e9 20       		.byte	32
+ 1798 06ea 5F       		.byte	95
+ 1799 06eb 01       		.byte	1
+ 1800 06ec 83       		.byte	-125
+ 1801 06ed 08       		.byte	8
+ 1802 06ee 87       		.byte	-121
+ 1803 06ef 03       		.byte	3
+ 1804 06f0 88       		.byte	-120
+ 1805 06f1 07       		.byte	7
+ 1806 06f2 94       		.byte	-108
+ 1807 06f3 07       		.byte	7
+ 1808 06f4 98       		.byte	-104
+ 1809 06f5 08       		.byte	8
+ 1810 06f6 99       		.byte	-103
+ 1811 06f7 01       		.byte	1
+ 1812 06f8 9A       		.byte	-102
+ 1813 06f9 01       		.byte	1
+ 1814 06fa 9B       		.byte	-101
+ 1815 06fb 06       		.byte	6
+ 1816 06fc 9D       		.byte	-99
+ 1817 06fd 0C       		.byte	12
+ 1818 06fe 9F       		.byte	-97
+ 1819 06ff 03       		.byte	3
+ 1820 0700 A9       		.byte	-87
+ 1821 0701 01       		.byte	1
+ 1822 0702 AB       		.byte	-85
+ 1823 0703 0E       		.byte	14
+ 1824 0704 AC       		.byte	-84
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 33
+
+
+ 1825 0705 02       		.byte	2
+ 1826 0706 AE       		.byte	-82
+ 1827 0707 04       		.byte	4
+ 1828 0708 AF       		.byte	-81
+ 1829 0709 0C       		.byte	12
+ 1830 070a B0       		.byte	-80
+ 1831 070b 0C       		.byte	12
+ 1832 070c B1       		.byte	-79
+ 1833 070d 0F       		.byte	15
+ 1834 070e B2       		.byte	-78
+ 1835 070f 03       		.byte	3
+ 1836 0710 B8       		.byte	-72
+ 1837 0711 0A       		.byte	10
+ 1838 0712 BB       		.byte	-69
+ 1839 0713 02       		.byte	2
+ 1840 0714 BE       		.byte	-66
+ 1841 0715 04       		.byte	4
+ 1842 0716 C0       		.byte	-64
+ 1843 0717 03       		.byte	3
+ 1844 0718 C5       		.byte	-59
+ 1845 0719 40       		.byte	64
+ 1846 071a C9       		.byte	-55
+ 1847 071b FF       		.byte	-1
+ 1848 071c CA       		.byte	-54
+ 1849 071d 07       		.byte	7
+ 1850 071e CB       		.byte	-53
+ 1851 071f FF       		.byte	-1
+ 1852 0720 CC       		.byte	-52
+ 1853 0721 40       		.byte	64
+ 1854 0722 CD       		.byte	-51
+ 1855 0723 20       		.byte	32
+ 1856 0724 CE       		.byte	-50
+ 1857 0725 F0       		.byte	-16
+ 1858 0726 CF       		.byte	-49
+ 1859 0727 05       		.byte	5
+ 1860 0728 D0       		.byte	-48
+ 1861 0729 08       		.byte	8
+ 1862 072a D8       		.byte	-40
+ 1863 072b 04       		.byte	4
+ 1864 072c D9       		.byte	-39
+ 1865 072d 04       		.byte	4
+ 1866 072e DA       		.byte	-38
+ 1867 072f 04       		.byte	4
+ 1868 0730 DC       		.byte	-36
+ 1869 0731 22       		.byte	34
+ 1870 0732 DD       		.byte	-35
+ 1871 0733 02       		.byte	2
+ 1872 0734 DF       		.byte	-33
+ 1873 0735 01       		.byte	1
+ 1874 0736 E0       		.byte	-32
+ 1875 0737 40       		.byte	64
+ 1876 0738 E1       		.byte	-31
+ 1877 0739 A8       		.byte	-88
+ 1878 073a E2       		.byte	-30
+ 1879 073b 40       		.byte	64
+ 1880 073c E3       		.byte	-29
+ 1881 073d 20       		.byte	32
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 34
+
+
+ 1882 073e 00       		.byte	0
+ 1883 073f 08       		.byte	8
+ 1884 0740 01       		.byte	1
+ 1885 0741 80       		.byte	-128
+ 1886 0742 02       		.byte	2
+ 1887 0743 08       		.byte	8
+ 1888 0744 03       		.byte	3
+ 1889 0745 40       		.byte	64
+ 1890 0746 05       		.byte	5
+ 1891 0747 10       		.byte	16
+ 1892 0748 0A       		.byte	10
+ 1893 0749 60       		.byte	96
+ 1894 074a 0B       		.byte	11
+ 1895 074b 01       		.byte	1
+ 1896 074c 0C       		.byte	12
+ 1897 074d 10       		.byte	16
+ 1898 074e 0E       		.byte	14
+ 1899 074f 20       		.byte	32
+ 1900 0750 0F       		.byte	15
+ 1901 0751 08       		.byte	8
+ 1902 0752 10       		.byte	16
+ 1903 0753 A4       		.byte	-92
+ 1904 0754 12       		.byte	18
+ 1905 0755 02       		.byte	2
+ 1906 0756 17       		.byte	23
+ 1907 0757 80       		.byte	-128
+ 1908 0758 19       		.byte	25
+ 1909 0759 80       		.byte	-128
+ 1910 075a 1D       		.byte	29
+ 1911 075b 08       		.byte	8
+ 1912 075c 1F       		.byte	31
+ 1913 075d 01       		.byte	1
+ 1914 075e 20       		.byte	32
+ 1915 075f 04       		.byte	4
+ 1916 0760 21       		.byte	33
+ 1917 0761 40       		.byte	64
+ 1918 0762 22       		.byte	34
+ 1919 0763 09       		.byte	9
+ 1920 0764 23       		.byte	35
+ 1921 0765 01       		.byte	1
+ 1922 0766 26       		.byte	38
+ 1923 0767 01       		.byte	1
+ 1924 0768 27       		.byte	39
+ 1925 0769 80       		.byte	-128
+ 1926 076a 28       		.byte	40
+ 1927 076b 04       		.byte	4
+ 1928 076c 29       		.byte	41
+ 1929 076d 82       		.byte	-126
+ 1930 076e 2A       		.byte	42
+ 1931 076f 20       		.byte	32
+ 1932 0770 2B       		.byte	43
+ 1933 0771 10       		.byte	16
+ 1934 0772 2F       		.byte	47
+ 1935 0773 05       		.byte	5
+ 1936 0774 31       		.byte	49
+ 1937 0775 01       		.byte	1
+ 1938 0776 33       		.byte	51
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 35
+
+
+ 1939 0777 98       		.byte	-104
+ 1940 0778 35       		.byte	53
+ 1941 0779 10       		.byte	16
+ 1942 077a 37       		.byte	55
+ 1943 077b 80       		.byte	-128
+ 1944 077c 39       		.byte	57
+ 1945 077d 92       		.byte	-110
+ 1946 077e 3B       		.byte	59
+ 1947 077f 04       		.byte	4
+ 1948 0780 3D       		.byte	61
+ 1949 0781 01       		.byte	1
+ 1950 0782 3F       		.byte	63
+ 1951 0783 08       		.byte	8
+ 1952 0784 45       		.byte	69
+ 1953 0785 08       		.byte	8
+ 1954 0786 4D       		.byte	77
+ 1955 0787 01       		.byte	1
+ 1956 0788 4F       		.byte	79
+ 1957 0789 08       		.byte	8
+ 1958 078a 5A       		.byte	90
+ 1959 078b 02       		.byte	2
+ 1960 078c 60       		.byte	96
+ 1961 078d 06       		.byte	6
+ 1962 078e 63       		.byte	99
+ 1963 078f 40       		.byte	64
+ 1964 0790 81       		.byte	-127
+ 1965 0791 01       		.byte	1
+ 1966 0792 82       		.byte	-126
+ 1967 0793 08       		.byte	8
+ 1968 0794 87       		.byte	-121
+ 1969 0795 40       		.byte	64
+ 1970 0796 88       		.byte	-120
+ 1971 0797 04       		.byte	4
+ 1972 0798 89       		.byte	-119
+ 1973 0799 21       		.byte	33
+ 1974 079a 8E       		.byte	-114
+ 1975 079b 10       		.byte	16
+ 1976 079c 8F       		.byte	-113
+ 1977 079d 80       		.byte	-128
+ 1978 079e 91       		.byte	-111
+ 1979 079f 10       		.byte	16
+ 1980 07a0 92       		.byte	-110
+ 1981 07a1 60       		.byte	96
+ 1982 07a2 93       		.byte	-109
+ 1983 07a3 0C       		.byte	12
+ 1984 07a4 95       		.byte	-107
+ 1985 07a5 01       		.byte	1
+ 1986 07a6 97       		.byte	-105
+ 1987 07a7 03       		.byte	3
+ 1988 07a8 98       		.byte	-104
+ 1989 07a9 02       		.byte	2
+ 1990 07aa 99       		.byte	-103
+ 1991 07ab 12       		.byte	18
+ 1992 07ac 9A       		.byte	-102
+ 1993 07ad 20       		.byte	32
+ 1994 07ae 9B       		.byte	-101
+ 1995 07af 50       		.byte	80
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 36
+
+
+ 1996 07b0 9C       		.byte	-100
+ 1997 07b1 10       		.byte	16
+ 1998 07b2 9D       		.byte	-99
+ 1999 07b3 A0       		.byte	-96
+ 2000 07b4 A0       		.byte	-96
+ 2001 07b5 A0       		.byte	-96
+ 2002 07b6 A2       		.byte	-94
+ 2003 07b7 12       		.byte	18
+ 2004 07b8 A3       		.byte	-93
+ 2005 07b9 18       		.byte	24
+ 2006 07ba A4       		.byte	-92
+ 2007 07bb 04       		.byte	4
+ 2008 07bc A6       		.byte	-90
+ 2009 07bd 09       		.byte	9
+ 2010 07be C0       		.byte	-64
+ 2011 07bf 4F       		.byte	79
+ 2012 07c0 C2       		.byte	-62
+ 2013 07c1 6D       		.byte	109
+ 2014 07c2 C4       		.byte	-60
+ 2015 07c3 8F       		.byte	-113
+ 2016 07c4 CA       		.byte	-54
+ 2017 07c5 3F       		.byte	63
+ 2018 07c6 CC       		.byte	-52
+ 2019 07c7 3F       		.byte	63
+ 2020 07c8 CE       		.byte	-50
+ 2021 07c9 CF       		.byte	-49
+ 2022 07ca D0       		.byte	-48
+ 2023 07cb 40       		.byte	64
+ 2024 07cc D6       		.byte	-42
+ 2025 07cd 01       		.byte	1
+ 2026 07ce D8       		.byte	-40
+ 2027 07cf 0D       		.byte	13
+ 2028 07d0 30       		.byte	48
+ 2029 07d1 10       		.byte	16
+ 2030 07d2 35       		.byte	53
+ 2031 07d3 80       		.byte	-128
+ 2032 07d4 CC       		.byte	-52
+ 2033 07d5 30       		.byte	48
+ 2034 07d6 5C       		.byte	92
+ 2035 07d7 02       		.byte	2
+ 2036 07d8 84       		.byte	-124
+ 2037 07d9 02       		.byte	2
+ 2038 07da 96       		.byte	-106
+ 2039 07db 04       		.byte	4
+ 2040 07dc 9C       		.byte	-100
+ 2041 07dd 10       		.byte	16
+ 2042 07de 9D       		.byte	-99
+ 2043 07df 80       		.byte	-128
+ 2044 07e0 B2       		.byte	-78
+ 2045 07e1 04       		.byte	4
+ 2046 07e2 D6       		.byte	-42
+ 2047 07e3 80       		.byte	-128
+ 2048 07e4 E6       		.byte	-26
+ 2049 07e5 40       		.byte	64
+ 2050 07e6 10       		.byte	16
+ 2051 07e7 40       		.byte	64
+ 2052 07e8 96       		.byte	-106
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 37
+
+
+ 2053 07e9 04       		.byte	4
+ 2054 07ea 9C       		.byte	-100
+ 2055 07eb 10       		.byte	16
+ 2056 07ec 9D       		.byte	-99
+ 2057 07ed 80       		.byte	-128
+ 2058 07ee C4       		.byte	-60
+ 2059 07ef 10       		.byte	16
+ 2060 07f0 89       		.byte	-119
+ 2061 07f1 80       		.byte	-128
+ 2062 07f2 96       		.byte	-106
+ 2063 07f3 04       		.byte	4
+ 2064 07f4 9C       		.byte	-100
+ 2065 07f5 10       		.byte	16
+ 2066 07f6 9D       		.byte	-99
+ 2067 07f7 80       		.byte	-128
+ 2068 07f8 AC       		.byte	-84
+ 2069 07f9 40       		.byte	64
+ 2070 07fa EC       		.byte	-20
+ 2071 07fb 10       		.byte	16
+ 2072 07fc 57       		.byte	87
+ 2073 07fd 02       		.byte	2
+ 2074 07fe 5B       		.byte	91
+ 2075 07ff 10       		.byte	16
+ 2076 0800 60       		.byte	96
+ 2077 0801 10       		.byte	16
+ 2078 0802 8C       		.byte	-116
+ 2079 0803 10       		.byte	16
+ 2080 0804 8F       		.byte	-113
+ 2081 0805 02       		.byte	2
+ 2082 0806 D4       		.byte	-44
+ 2083 0807 01       		.byte	1
+ 2084 0808 D6       		.byte	-42
+ 2085 0809 04       		.byte	4
+ 2086 080a D8       		.byte	-40
+ 2087 080b 02       		.byte	2
+ 2088 080c E0       		.byte	-32
+ 2089 080d 08       		.byte	8
+ 2090 080e E4       		.byte	-28
+ 2091 080f 02       		.byte	2
+ 2092 0810 AB       		.byte	-85
+ 2093 0811 10       		.byte	16
+ 2094 0812 67       		.byte	103
+ 2095 0813 20       		.byte	32
+ 2096 0814 87       		.byte	-121
+ 2097 0815 10       		.byte	16
+ 2098 0816 96       		.byte	-106
+ 2099 0817 04       		.byte	4
+ 2100 0818 9C       		.byte	-100
+ 2101 0819 10       		.byte	16
+ 2102 081a D8       		.byte	-40
+ 2103 081b 80       		.byte	-128
+ 2104 081c E6       		.byte	-26
+ 2105 081d 40       		.byte	64
+ 2106 081e 0E       		.byte	14
+ 2107 081f 04       		.byte	4
+ 2108 0820 84       		.byte	-124
+ 2109 0821 10       		.byte	16
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 38
+
+
+ 2110 0822 96       		.byte	-106
+ 2111 0823 04       		.byte	4
+ 2112 0824 9C       		.byte	-100
+ 2113 0825 10       		.byte	16
+ 2114 0826 C2       		.byte	-62
+ 2115 0827 80       		.byte	-128
+ 2116 0828 E6       		.byte	-26
+ 2117 0829 40       		.byte	64
+ 2118 082a 87       		.byte	-121
+ 2119 082b 10       		.byte	16
+ 2120 082c 10       		.byte	16
+ 2121 082d 10       		.byte	16
+ 2122 082e 73       		.byte	115
+ 2123 082f 10       		.byte	16
+ 2124 0830 88       		.byte	-120
+ 2125 0831 10       		.byte	16
+ 2126 0832 93       		.byte	-109
+ 2127 0833 10       		.byte	16
+ 2128 0834 C4       		.byte	-60
+ 2129 0835 08       		.byte	8
+ 2130 0836 DC       		.byte	-36
+ 2131 0837 01       		.byte	1
+ 2132 0838 E2       		.byte	-30
+ 2133 0839 04       		.byte	4
+ 2134 083a 00       		.byte	0
+ 2135 083b 07       		.byte	7
+ 2136 083c 01       		.byte	1
+ 2137 083d 01       		.byte	1
+ 2138 083e 0C       		.byte	12
+ 2139 083f 07       		.byte	7
+ 2140 0840 0D       		.byte	13
+ 2141 0841 01       		.byte	1
+ 2142 0842 0E       		.byte	14
+ 2143 0843 03       		.byte	3
+ 2144 0844 10       		.byte	16
+ 2145 0845 04       		.byte	4
+ 2146 0846 1C       		.byte	28
+ 2147 0847 04       		.byte	4
+ 2148 0848 00       		.byte	0
+ 2149 0849 0F       		.byte	15
+ 2150 084a 00       		.byte	0
+ 2151 084b 00       		.byte	0
+ 2152 084c 00       		.byte	0
+ 2153 084d 80       		.byte	-128
+ 2154 084e 80       		.byte	-128
+ 2155 084f 00       		.byte	0
+ 2156 0850 80       		.byte	-128
+ 2157 0851 00       		.byte	0
+ 2158 0852 00       		.byte	0
+ 2159 0853 00       		.byte	0
+ 2160 0854 80       		.byte	-128
+ 2161 0855 00       		.byte	0
+ 2162 0856 40       		.byte	64
+ 2163 0857 80       		.byte	-128
+ 2164 0858 80       		.byte	-128
+ 2165 0859 00       		.byte	0
+ 2166 085a 80       		.byte	-128
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 39
+
+
+ 2167 085b 00       		.byte	0
+ 2168 085c 00       		.byte	0
+ 2169 085d 00       		.byte	0
+ 2170 085e 00       		.byte	0
+ 2171 085f 00       		.byte	0
+ 2172 0860 00       		.byte	0
+ 2173 0861 0B       		.byte	11
+ 2174 0862 0B       		.byte	11
+ 2175 0863 00       		.byte	0
+ 2176 0864 00       		.byte	0
+ 2177 0865 00       		.byte	0
+ 2178 0866 00       		.byte	0
+ 2179 0867 00       		.byte	0
+ 2180 0868 00       		.byte	0
+ 2181 0869 1C       		.byte	28
+ 2182 086a 1C       		.byte	28
+ 2183 086b 00       		.byte	0
+ 2184 086c 1C       		.byte	28
+ 2185 086d 00       		.byte	0
+ 2186 086e 00       		.byte	0
+ 2187 086f 00       		.byte	0
+ 2188 0870 80       		.byte	-128
+ 2189 0871 00       		.byte	0
+ 2190 0872 00       		.byte	0
+ 2191 0873 00       		.byte	0
+ 2192 0874 00       		.byte	0
+ 2193 0875 00       		.byte	0
+ 2194 0876 00       		.byte	0
+ 2195 0877 00       		.byte	0
+ 2196              		.section	.cywolatch,"a",%progbits
+ 2197              		.type	cy_meta_wonvl, %object
+ 2198              		.size	cy_meta_wonvl, 4
+ 2199              	cy_meta_wonvl:
+ 2200 0000 BC       		.byte	-68
+ 2201 0001 90       		.byte	-112
+ 2202 0002 AC       		.byte	-84
+ 2203 0003 AF       		.byte	-81
+ 2204              		.section	.cycustnvl,"a",%progbits
+ 2205              		.type	cy_meta_custnvl, %object
+ 2206              		.size	cy_meta_custnvl, 4
+ 2207              	cy_meta_custnvl:
+ 2208 0000 00       		.byte	0
+ 2209 0001 00       		.byte	0
+ 2210 0002 40       		.byte	64
+ 2211 0003 05       		.byte	5
+ 2212              		.section	.cymeta,"a",%progbits
+ 2213              		.type	cy_metadata, %object
+ 2214              		.size	cy_metadata, 12
+ 2215              	cy_metadata:
+ 2216 0000 00       		.byte	0
+ 2217 0001 01       		.byte	1
+ 2218 0002 2E       		.byte	46
+ 2219 0003 16       		.byte	22
+ 2220 0004 10       		.byte	16
+ 2221 0005 69       		.byte	105
+ 2222 0006 00       		.byte	0
+ 2223 0007 01       		.byte	1
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 40
+
+
+ 2224 0008 00       		.byte	0
+ 2225 0009 00       		.byte	0
+ 2226 000a 00       		.byte	0
+ 2227 000b 00       		.byte	0
+ 2228              		.section	.cyflashprotect,"a",%progbits
+ 2229              		.type	cy_meta_flashprotect, %object
+ 2230              		.size	cy_meta_flashprotect, 256
+ 2231              	cy_meta_flashprotect:
+ 2232 0000 00000000 		.space	256
+ 2232      00000000 
+ 2232      00000000 
+ 2232      00000000 
+ 2232      00000000 
+ 2233              		.text
+ 2234              	.Letext0:
+ 2235              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 2236              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 2237              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 2238              		.section	.debug_info,"",%progbits
+ 2239              	.Ldebug_info0:
+ 2240 0000 35010000 		.4byte	0x135
+ 2241 0004 0400     		.2byte	0x4
+ 2242 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 2243 000a 04       		.byte	0x4
+ 2244 000b 01       		.uleb128 0x1
+ 2245 000c 8F000000 		.4byte	.LASF17
+ 2246 0010 0C       		.byte	0xc
+ 2247 0011 10020000 		.4byte	.LASF18
+ 2248 0015 72010000 		.4byte	.LASF19
+ 2249 0019 00000000 		.4byte	.Ldebug_line0
+ 2250 001d 02       		.uleb128 0x2
+ 2251 001e 01       		.byte	0x1
+ 2252 001f 06       		.byte	0x6
+ 2253 0020 04020000 		.4byte	.LASF0
+ 2254 0024 03       		.uleb128 0x3
+ 2255 0025 00000000 		.4byte	.LASF9
+ 2256 0029 01       		.byte	0x1
+ 2257 002a 1D       		.byte	0x1d
+ 2258 002b 2F000000 		.4byte	0x2f
+ 2259 002f 02       		.uleb128 0x2
+ 2260 0030 01       		.byte	0x1
+ 2261 0031 08       		.byte	0x8
+ 2262 0032 2D000000 		.4byte	.LASF1
+ 2263 0036 02       		.uleb128 0x2
+ 2264 0037 02       		.byte	0x2
+ 2265 0038 05       		.byte	0x5
+ 2266 0039 5F010000 		.4byte	.LASF2
+ 2267 003d 02       		.uleb128 0x2
+ 2268 003e 02       		.byte	0x2
+ 2269 003f 07       		.byte	0x7
+ 2270 0040 4D000000 		.4byte	.LASF3
+ 2271 0044 02       		.uleb128 0x2
+ 2272 0045 04       		.byte	0x4
+ 2273 0046 05       		.byte	0x5
+ 2274 0047 69010000 		.4byte	.LASF4
+ 2275 004b 02       		.uleb128 0x2
+ 2276 004c 04       		.byte	0x4
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 41
+
+
+ 2277 004d 07       		.byte	0x7
+ 2278 004e 3B000000 		.4byte	.LASF5
+ 2279 0052 02       		.uleb128 0x2
+ 2280 0053 08       		.byte	0x8
+ 2281 0054 05       		.byte	0x5
+ 2282 0055 51010000 		.4byte	.LASF6
+ 2283 0059 02       		.uleb128 0x2
+ 2284 005a 08       		.byte	0x8
+ 2285 005b 07       		.byte	0x7
+ 2286 005c 16000000 		.4byte	.LASF7
+ 2287 0060 04       		.uleb128 0x4
+ 2288 0061 04       		.byte	0x4
+ 2289 0062 05       		.byte	0x5
+ 2290 0063 696E7400 		.ascii	"int\000"
+ 2291 0067 02       		.uleb128 0x2
+ 2292 0068 04       		.byte	0x4
+ 2293 0069 07       		.byte	0x7
+ 2294 006a 82000000 		.4byte	.LASF8
+ 2295 006e 03       		.uleb128 0x3
+ 2296 006f 1D010000 		.4byte	.LASF10
+ 2297 0073 02       		.byte	0x2
+ 2298 0074 18       		.byte	0x18
+ 2299 0075 24000000 		.4byte	0x24
+ 2300 0079 05       		.uleb128 0x5
+ 2301 007a 91000000 		.4byte	0x91
+ 2302 007e 8A000000 		.4byte	0x8a
+ 2303 0082 06       		.uleb128 0x6
+ 2304 0083 8A000000 		.4byte	0x8a
+ 2305 0087 7708     		.2byte	0x877
+ 2306 0089 00       		.byte	0
+ 2307 008a 02       		.uleb128 0x2
+ 2308 008b 04       		.byte	0x4
+ 2309 008c 07       		.byte	0x7
+ 2310 008d 48010000 		.4byte	.LASF11
+ 2311 0091 07       		.uleb128 0x7
+ 2312 0092 6E000000 		.4byte	0x6e
+ 2313 0096 08       		.uleb128 0x8
+ 2314 0097 70000000 		.4byte	.LASF12
+ 2315 009b 03       		.byte	0x3
+ 2316 009c 1F       		.byte	0x1f
+ 2317 009d A7000000 		.4byte	0xa7
+ 2318 00a1 05       		.uleb128 0x5
+ 2319 00a2 03       		.byte	0x3
+ 2320 00a3 00000000 		.4byte	cy_meta_configecc
+ 2321 00a7 07       		.uleb128 0x7
+ 2322 00a8 79000000 		.4byte	0x79
+ 2323 00ac 05       		.uleb128 0x5
+ 2324 00ad 91000000 		.4byte	0x91
+ 2325 00b1 BC000000 		.4byte	0xbc
+ 2326 00b5 09       		.uleb128 0x9
+ 2327 00b6 8A000000 		.4byte	0x8a
+ 2328 00ba 03       		.byte	0x3
+ 2329 00bb 00       		.byte	0
+ 2330 00bc 0A       		.uleb128 0xa
+ 2331 00bd 60000000 		.4byte	.LASF13
+ 2332 00c1 03       		.byte	0x3
+ 2333 00c2 3B01     		.2byte	0x13b
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 42
+
+
+ 2334 00c4 CE000000 		.4byte	0xce
+ 2335 00c8 05       		.uleb128 0x5
+ 2336 00c9 03       		.byte	0x3
+ 2337 00ca 00000000 		.4byte	cy_meta_custnvl
+ 2338 00ce 07       		.uleb128 0x7
+ 2339 00cf AC000000 		.4byte	0xac
+ 2340 00d3 0A       		.uleb128 0xa
+ 2341 00d4 3A010000 		.4byte	.LASF14
+ 2342 00d8 03       		.byte	0x3
+ 2343 00d9 4901     		.2byte	0x149
+ 2344 00db E5000000 		.4byte	0xe5
+ 2345 00df 05       		.uleb128 0x5
+ 2346 00e0 03       		.byte	0x3
+ 2347 00e1 00000000 		.4byte	cy_meta_wonvl
+ 2348 00e5 07       		.uleb128 0x7
+ 2349 00e6 AC000000 		.4byte	0xac
+ 2350 00ea 05       		.uleb128 0x5
+ 2351 00eb 91000000 		.4byte	0x91
+ 2352 00ef FA000000 		.4byte	0xfa
+ 2353 00f3 09       		.uleb128 0x9
+ 2354 00f4 8A000000 		.4byte	0x8a
+ 2355 00f8 FF       		.byte	0xff
+ 2356 00f9 00       		.byte	0
+ 2357 00fa 0A       		.uleb128 0xa
+ 2358 00fb 25010000 		.4byte	.LASF15
+ 2359 00ff 03       		.byte	0x3
+ 2360 0100 5701     		.2byte	0x157
+ 2361 0102 0C010000 		.4byte	0x10c
+ 2362 0106 05       		.uleb128 0x5
+ 2363 0107 03       		.byte	0x3
+ 2364 0108 00000000 		.4byte	cy_meta_flashprotect
+ 2365 010c 07       		.uleb128 0x7
+ 2366 010d EA000000 		.4byte	0xea
+ 2367 0111 05       		.uleb128 0x5
+ 2368 0112 91000000 		.4byte	0x91
+ 2369 0116 21010000 		.4byte	0x121
+ 2370 011a 09       		.uleb128 0x9
+ 2371 011b 8A000000 		.4byte	0x8a
+ 2372 011f 0B       		.byte	0xb
+ 2373 0120 00       		.byte	0
+ 2374 0121 0A       		.uleb128 0xa
+ 2375 0122 0A000000 		.4byte	.LASF16
+ 2376 0126 03       		.byte	0x3
+ 2377 0127 8401     		.2byte	0x184
+ 2378 0129 33010000 		.4byte	0x133
+ 2379 012d 05       		.uleb128 0x5
+ 2380 012e 03       		.byte	0x3
+ 2381 012f 00000000 		.4byte	cy_metadata
+ 2382 0133 07       		.uleb128 0x7
+ 2383 0134 11010000 		.4byte	0x111
+ 2384 0138 00       		.byte	0
+ 2385              		.section	.debug_abbrev,"",%progbits
+ 2386              	.Ldebug_abbrev0:
+ 2387 0000 01       		.uleb128 0x1
+ 2388 0001 11       		.uleb128 0x11
+ 2389 0002 01       		.byte	0x1
+ 2390 0003 25       		.uleb128 0x25
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 43
+
+
+ 2391 0004 0E       		.uleb128 0xe
+ 2392 0005 13       		.uleb128 0x13
+ 2393 0006 0B       		.uleb128 0xb
+ 2394 0007 03       		.uleb128 0x3
+ 2395 0008 0E       		.uleb128 0xe
+ 2396 0009 1B       		.uleb128 0x1b
+ 2397 000a 0E       		.uleb128 0xe
+ 2398 000b 10       		.uleb128 0x10
+ 2399 000c 17       		.uleb128 0x17
+ 2400 000d 00       		.byte	0
+ 2401 000e 00       		.byte	0
+ 2402 000f 02       		.uleb128 0x2
+ 2403 0010 24       		.uleb128 0x24
+ 2404 0011 00       		.byte	0
+ 2405 0012 0B       		.uleb128 0xb
+ 2406 0013 0B       		.uleb128 0xb
+ 2407 0014 3E       		.uleb128 0x3e
+ 2408 0015 0B       		.uleb128 0xb
+ 2409 0016 03       		.uleb128 0x3
+ 2410 0017 0E       		.uleb128 0xe
+ 2411 0018 00       		.byte	0
+ 2412 0019 00       		.byte	0
+ 2413 001a 03       		.uleb128 0x3
+ 2414 001b 16       		.uleb128 0x16
+ 2415 001c 00       		.byte	0
+ 2416 001d 03       		.uleb128 0x3
+ 2417 001e 0E       		.uleb128 0xe
+ 2418 001f 3A       		.uleb128 0x3a
+ 2419 0020 0B       		.uleb128 0xb
+ 2420 0021 3B       		.uleb128 0x3b
+ 2421 0022 0B       		.uleb128 0xb
+ 2422 0023 49       		.uleb128 0x49
+ 2423 0024 13       		.uleb128 0x13
+ 2424 0025 00       		.byte	0
+ 2425 0026 00       		.byte	0
+ 2426 0027 04       		.uleb128 0x4
+ 2427 0028 24       		.uleb128 0x24
+ 2428 0029 00       		.byte	0
+ 2429 002a 0B       		.uleb128 0xb
+ 2430 002b 0B       		.uleb128 0xb
+ 2431 002c 3E       		.uleb128 0x3e
+ 2432 002d 0B       		.uleb128 0xb
+ 2433 002e 03       		.uleb128 0x3
+ 2434 002f 08       		.uleb128 0x8
+ 2435 0030 00       		.byte	0
+ 2436 0031 00       		.byte	0
+ 2437 0032 05       		.uleb128 0x5
+ 2438 0033 01       		.uleb128 0x1
+ 2439 0034 01       		.byte	0x1
+ 2440 0035 49       		.uleb128 0x49
+ 2441 0036 13       		.uleb128 0x13
+ 2442 0037 01       		.uleb128 0x1
+ 2443 0038 13       		.uleb128 0x13
+ 2444 0039 00       		.byte	0
+ 2445 003a 00       		.byte	0
+ 2446 003b 06       		.uleb128 0x6
+ 2447 003c 21       		.uleb128 0x21
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 44
+
+
+ 2448 003d 00       		.byte	0
+ 2449 003e 49       		.uleb128 0x49
+ 2450 003f 13       		.uleb128 0x13
+ 2451 0040 2F       		.uleb128 0x2f
+ 2452 0041 05       		.uleb128 0x5
+ 2453 0042 00       		.byte	0
+ 2454 0043 00       		.byte	0
+ 2455 0044 07       		.uleb128 0x7
+ 2456 0045 26       		.uleb128 0x26
+ 2457 0046 00       		.byte	0
+ 2458 0047 49       		.uleb128 0x49
+ 2459 0048 13       		.uleb128 0x13
+ 2460 0049 00       		.byte	0
+ 2461 004a 00       		.byte	0
+ 2462 004b 08       		.uleb128 0x8
+ 2463 004c 34       		.uleb128 0x34
+ 2464 004d 00       		.byte	0
+ 2465 004e 03       		.uleb128 0x3
+ 2466 004f 0E       		.uleb128 0xe
+ 2467 0050 3A       		.uleb128 0x3a
+ 2468 0051 0B       		.uleb128 0xb
+ 2469 0052 3B       		.uleb128 0x3b
+ 2470 0053 0B       		.uleb128 0xb
+ 2471 0054 49       		.uleb128 0x49
+ 2472 0055 13       		.uleb128 0x13
+ 2473 0056 3F       		.uleb128 0x3f
+ 2474 0057 19       		.uleb128 0x19
+ 2475 0058 02       		.uleb128 0x2
+ 2476 0059 18       		.uleb128 0x18
+ 2477 005a 00       		.byte	0
+ 2478 005b 00       		.byte	0
+ 2479 005c 09       		.uleb128 0x9
+ 2480 005d 21       		.uleb128 0x21
+ 2481 005e 00       		.byte	0
+ 2482 005f 49       		.uleb128 0x49
+ 2483 0060 13       		.uleb128 0x13
+ 2484 0061 2F       		.uleb128 0x2f
+ 2485 0062 0B       		.uleb128 0xb
+ 2486 0063 00       		.byte	0
+ 2487 0064 00       		.byte	0
+ 2488 0065 0A       		.uleb128 0xa
+ 2489 0066 34       		.uleb128 0x34
+ 2490 0067 00       		.byte	0
+ 2491 0068 03       		.uleb128 0x3
+ 2492 0069 0E       		.uleb128 0xe
+ 2493 006a 3A       		.uleb128 0x3a
+ 2494 006b 0B       		.uleb128 0xb
+ 2495 006c 3B       		.uleb128 0x3b
+ 2496 006d 05       		.uleb128 0x5
+ 2497 006e 49       		.uleb128 0x49
+ 2498 006f 13       		.uleb128 0x13
+ 2499 0070 3F       		.uleb128 0x3f
+ 2500 0071 19       		.uleb128 0x19
+ 2501 0072 02       		.uleb128 0x2
+ 2502 0073 18       		.uleb128 0x18
+ 2503 0074 00       		.byte	0
+ 2504 0075 00       		.byte	0
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 45
+
+
+ 2505 0076 00       		.byte	0
+ 2506              		.section	.debug_aranges,"",%progbits
+ 2507 0000 14000000 		.4byte	0x14
+ 2508 0004 0200     		.2byte	0x2
+ 2509 0006 00000000 		.4byte	.Ldebug_info0
+ 2510 000a 04       		.byte	0x4
+ 2511 000b 00       		.byte	0
+ 2512 000c 0000     		.2byte	0
+ 2513 000e 0000     		.2byte	0
+ 2514 0010 00000000 		.4byte	0
+ 2515 0014 00000000 		.4byte	0
+ 2516              		.section	.debug_line,"",%progbits
+ 2517              	.Ldebug_line0:
+ 2518 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 2518      02003701 
+ 2518      00000201 
+ 2518      FB0E0D00 
+ 2518      01010101 
+ 2519              	.LASF9:
+ 2520 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 2520      6E74385F 
+ 2520      7400
+ 2521              	.LASF16:
+ 2522 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 2522      65746164 
+ 2522      61746100 
+ 2523              	.LASF7:
+ 2524 0016 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2524      206C6F6E 
+ 2524      6720756E 
+ 2524      7369676E 
+ 2524      65642069 
+ 2525              	.LASF1:
+ 2526 002d 756E7369 		.ascii	"unsigned char\000"
+ 2526      676E6564 
+ 2526      20636861 
+ 2526      7200
+ 2527              	.LASF5:
+ 2528 003b 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2528      20756E73 
+ 2528      69676E65 
+ 2528      6420696E 
+ 2528      7400
+ 2529              	.LASF3:
+ 2530 004d 73686F72 		.ascii	"short unsigned int\000"
+ 2530      7420756E 
+ 2530      7369676E 
+ 2530      65642069 
+ 2530      6E7400
+ 2531              	.LASF13:
+ 2532 0060 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 2532      6574615F 
+ 2532      63757374 
+ 2532      6E766C00 
+ 2533              	.LASF12:
+ 2534 0070 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 2534      6574615F 
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 46
+
+
+ 2534      636F6E66 
+ 2534      69676563 
+ 2534      6300
+ 2535              	.LASF8:
+ 2536 0082 756E7369 		.ascii	"unsigned int\000"
+ 2536      676E6564 
+ 2536      20696E74 
+ 2536      00
+ 2537              	.LASF17:
+ 2538 008f 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2538      43313120 
+ 2538      352E342E 
+ 2538      31203230 
+ 2538      31363036 
+ 2539 00c2 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 2539      20726576 
+ 2539      6973696F 
+ 2539      6E203233 
+ 2539      37373135 
+ 2540 00f5 73202D66 		.ascii	"s -ffunction-sections -ffat-lto-objects\000"
+ 2540      66756E63 
+ 2540      74696F6E 
+ 2540      2D736563 
+ 2540      74696F6E 
+ 2541              	.LASF10:
+ 2542 011d 75696E74 		.ascii	"uint8_t\000"
+ 2542      385F7400 
+ 2543              	.LASF15:
+ 2544 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 2544      6574615F 
+ 2544      666C6173 
+ 2544      6870726F 
+ 2544      74656374 
+ 2545              	.LASF14:
+ 2546 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 2546      6574615F 
+ 2546      776F6E76 
+ 2546      6C00
+ 2547              	.LASF11:
+ 2548 0148 73697A65 		.ascii	"sizetype\000"
+ 2548      74797065 
+ 2548      00
+ 2549              	.LASF6:
+ 2550 0151 6C6F6E67 		.ascii	"long long int\000"
+ 2550      206C6F6E 
+ 2550      6720696E 
+ 2550      7400
+ 2551              	.LASF2:
+ 2552 015f 73686F72 		.ascii	"short int\000"
+ 2552      7420696E 
+ 2552      7400
+ 2553              	.LASF4:
+ 2554 0169 6C6F6E67 		.ascii	"long int\000"
+ 2554      20696E74 
+ 2554      00
+ 2555              	.LASF19:
+ 2556 0172 433A5C55 		.ascii	"C:\\Users\\mgnocco\\Documents\\Git\\PSoC5\\IMU_Spee"
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\cc9Rs6Ro.s 			page 47
+
+
+ 2556      73657273 
+ 2556      5C6D676E 
+ 2556      6F63636F 
+ 2556      5C446F63 
+ 2557 019f 64546573 		.ascii	"dTest\\PSoC5_FW_IMU_LSM6DSRX_LIS2MDL_modificato\\LS"
+ 2557      745C5053 
+ 2557      6F43355F 
+ 2557      46575F49 
+ 2557      4D555F4C 
+ 2558 01d0 4D364453 		.ascii	"M6DSRX +lis2mdl_funziona -NONTOCCARE\\Design02.cyds"
+ 2558      5258202B 
+ 2558      6C697332 
+ 2558      6D646C5F 
+ 2558      66756E7A 
+ 2559 0202 6E00     		.ascii	"n\000"
+ 2560              	.LASF0:
+ 2561 0204 7369676E 		.ascii	"signed char\000"
+ 2561      65642063 
+ 2561      68617200 
+ 2562              	.LASF18:
+ 2563 0210 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 2563      72617465 
+ 2563      645F536F 
+ 2563      75726365 
+ 2563      5C50536F 
+ 2564              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

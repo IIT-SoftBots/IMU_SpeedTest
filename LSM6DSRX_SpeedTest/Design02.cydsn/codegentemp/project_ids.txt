@@ -1,0 +1,6 @@
+C:\Users\mgnocco\Documents\Git\LSM6DSRX_SpeedTest\Design02.cydsn\Design02.cyprj|19329a91-f033-4a39-ba30-dd9ce6f5b7c2
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|fd691970-b03f-45a2-94b9-124d153309df
+C:\Users\mgnocco\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|bc2e620d-dee4-42f1-a5eb-3ddd4c40b198
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|6bc85b31-b57c-4613-8fe2-af5945ce0919
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|6311794b-5179-48a7-91cc-c2a322382c97
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f77e14ca-998d-4309-865b-a750fe605662
