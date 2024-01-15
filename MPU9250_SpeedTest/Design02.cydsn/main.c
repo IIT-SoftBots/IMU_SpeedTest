@@ -110,10 +110,15 @@ for (k=0;k<1; k++){
          
       */
           
-        for (i = 0; i < 6; i++){
-            Accel[k][j][i] = ReadControlRegisterSPI(MPU9250_ACCEL_ZOUT_L - i);
-        }
-/*
+        
+             Accel[k][j][0] = ReadControlRegisterSPI(MPU9250_ACCEL_XOUT_L );
+             Accel[k][j][1] = ReadControlRegisterSPI(MPU9250_ACCEL_XOUT_H );
+             Accel[k][j][2] = ReadControlRegisterSPI(MPU9250_ACCEL_YOUT_L );
+             Accel[k][j][3] = ReadControlRegisterSPI(MPU9250_ACCEL_YOUT_H );
+             Accel[k][j][4] = ReadControlRegisterSPI(MPU9250_ACCEL_ZOUT_L );
+             Accel[k][j][5] = ReadControlRegisterSPI(MPU9250_ACCEL_ZOUT_H );
+            
+        /*
         for (i = 0; i < 6; i++){
             Gyro[k][j][i] = ReadControlRegisterSPI(LSM6DSRX_OUTX_L_G + i);
         }*/
