@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Accelerometers_acquisition_time">
+<ExpandedNodeIds>
+<v>Accelerometers_acquisition_time</v>
+<v>Accelerometers_acquisition_time\Generic</v>
+<v>Accelerometers_acquisition_time\Generic\TopDesign</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Pins</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Analog</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Clocks</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Interrupts</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\DMA</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\System</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Directives</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Flash Security</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\EEPROM</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\command_processing.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\commands.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\device.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\Encoder_functions.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\FIRMWARE_CONFIGURATION.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\globals.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\IMU_functions.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\interruptions.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\SD_RTC_functions.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\utils.h</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\command_processing.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\Encoder_functions.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\globals.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\IMU_functions.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\interruptions.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\main.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\SD_RTC_functions.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\utils.c</v>
+<v>Accelerometers_acquisition_time\Generic\Generated_Source\PSoC5</v>
+<v>Accelerometers_acquisition_time\Generic\Generated_Source\PSoC5\SD_SPI0</v>
+<v>Accelerometers_acquisition_time\Generic\Generated_Source\PSoC5\SPI_IMU</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Accelerometers_acquisition_time</v>
+<v>Accelerometers_acquisition_time\Generic</v>
+<v>Accelerometers_acquisition_time\Generic\TopDesign</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Pins</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Analog</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Clocks</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Interrupts</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\DMA</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\System</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Directives</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\Flash Security</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.cydwr\EEPROM</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\command_processing.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\commands.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\device.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\Encoder_functions.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\FIRMWARE_CONFIGURATION.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\globals.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\IMU_functions.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\interruptions.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\SD_RTC_functions.h</v>
+<v>Accelerometers_acquisition_time\Generic\Header Files\utils.h</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\command_processing.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\Encoder_functions.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\globals.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\IMU_functions.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\interruptions.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\main.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\SD_RTC_functions.c</v>
+<v>Accelerometers_acquisition_time\Generic\Source Files\utils.c</v>
+<v>Accelerometers_acquisition_time\Generic\Generated_Source</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Accelerometers_acquisition_time\Generic\TopDesign\TopDesign.cysch">
+<ExpandedNodeIds>
+<v>Accelerometers_acquisition_time</v>
+<v>Accelerometers_acquisition_time\Generic</v>
+<v>Accelerometers_acquisition_time\Generic\TopDesign</v>
+<v>Accelerometers_acquisition_time\Generic\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Accelerometers_acquisition_time</v>
+<v>Accelerometers_acquisition_time\Generic</v>
+<v>Accelerometers_acquisition_time\Generic\TopDesign</v>
+<v>Accelerometers_acquisition_time\Generic\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Accelerometers_acquisition_time</v>
+<v>Accelerometers_acquisition_time\Generic</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_AMux.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_Ext_CP_Clk.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_INT.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_IRQ.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_N_CHANNELS_USED.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_N_CHANNELS_USED_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SOC.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SOC_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_STATUS.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_theACLK.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_05HZ.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_05HZ_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_25HZ.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_25HZ_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_CTRL_EN.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_CTRL_EN_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Bootloadable.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_ENCODER_LINE.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_ENCODER_LINE_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_IMU.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_IMU_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLK_ENCODER.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLK_RTC.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLOCK_ENCODERS.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLOCK_PWM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLOCK_PWM_BLINK.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLOCK_UART.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Cm3Start.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\command_processing.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\counter_cyc_clk.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\COUNTER_ENC.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\COUNTER_ENC_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS_ENCODER0.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS_ENCODER1.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS_on_board_IMU.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS_RTC.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS0.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS1.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS2.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS3.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CURRENT_SENSE_1.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CURRENT_SENSE_2.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\cy_em_eeprom.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CyBootAsmGnu.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\cybootloader.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CYCLES_TIMER.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CYCLES_TIMER_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CyDmac.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\cyfitter_cfg.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CyFlash.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CyLib.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\cymetadata.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\cyPm.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CySpc.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\cyutils.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\DMA_dma.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\EEPROM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\EMG_1.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\EMG_2.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\EMG_3.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\EMG_4.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\EMG_5.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\EMG_6.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\EMG_A.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\EMG_B.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Encoder_functions.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\FF_STATUS.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\FTDI_ENABLE.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\globals.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\IMU_functions.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\interruptions.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ISR_CYCLES.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ISR_RS485_RX.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\LED_CTRL.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\LED_CTRL_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\LED_GREEN.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\LED_RED.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\main.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MISO.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MISO_ENCODER.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MISO_RTC.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOSI.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOSI_RTC.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_1A.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_1B.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_2A.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_2B.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_DIR_1.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_DIR_1_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_DIR_2.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_DIR_2_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_DRIVER_TYPE.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_DRIVER_TYPE_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_EN_1.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_EN_2.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_ON_OFF_1.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_ON_OFF_1_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_ON_OFF_2.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_ON_OFF_2_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MY_TIMER.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MY_TIMER_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MY_TIMER_REG.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MY_TIMER_REG_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\PACER_TIMER.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\PACER_TIMER_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\PWM_MOTORS.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\PWM_MOTORS_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\RESET_COUNTERS.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\RESET_COUNTERS_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\RESET_FF.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\RESET_FF_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\RS_485_EN.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\RS485_CTS.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SCLK.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_Clock_1.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_ConfigMMC_SPI.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_miso0.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_MMC_HW_SPI.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_mosi0.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_RTC_functions.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_sclk0.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_SPI0.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_SPI0_CS.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_SPI0_INT.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SD_SPI0_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_1.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_1_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_2.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_2_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_3.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_3_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SPI_IMU.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SPI_IMU_INT.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SPI_IMU_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\UART_RS485.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\UART_RS485_BOOT.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\UART_RS485_INT.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\UART_RS485_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\utils.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\VOLTAGE_SENSE_1.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\VOLTAGE_SENSE_2.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Generic.cyacd</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Generic.elf</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Generic.hex</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Generic.map</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.gpdsc</v>
+<v>Accelerometers_acquisition_time\Generic\Generic.rpt</v>
+<v>Accelerometers_acquisition_time\Generic\Generic_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Accelerometers_acquisition_time</v>
+<v>Accelerometers_acquisition_time\Generic</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_AMux.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_Ext_CP_Clk.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_INT.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_IRQ.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_N_CHANNELS_USED.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_N_CHANNELS_USED_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SOC.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SOC_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_STATUS.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_theACLK.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_05HZ.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_05HZ_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_25HZ.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_25HZ_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_CTRL_EN.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_CTRL_EN_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Bootloadable.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_ENCODER_LINE.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_ENCODER_LINE_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_IMU.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_IMU_PM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLK_ENCODER.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLK_RTC.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLOCK_ENCODERS.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLOCK_PWM.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLOCK_PWM_BLINK.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLOCK_UART.lst</v>
+<v>Accelerometers_acquisition_time\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Cm3Start.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Accelerometers_acquisition_time</v>
+<v>Accelerometers_acquisition_time\Generic</v>
+<v>Accelerometers_acquisition_time\Generic\PSoC 5LP Architecture TRM</v>
+<v>Accelerometers_acquisition_time\Generic\CY8C58LP Family Datasheet</v>
+<v>Accelerometers_acquisition_time\Generic\System Reference Guides</v>
+<v>Accelerometers_acquisition_time\Generic\System Reference Guides\cy_boot_v5_70</v>
+<v>Accelerometers_acquisition_time\Generic\ADC_DelSig_v3_20.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\AMuxHw_v1_50.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\and_v1_0</v>
+<v>Accelerometers_acquisition_time\Generic\and_v1_0\and_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\BasicCounter_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\Bootloadable_v1_60.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\Counter_v3_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_clock_v2_20</v>
+<v>Accelerometers_acquisition_time\Generic\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_constant_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_dma_v1_70.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_isr_v1_70</v>
+<v>Accelerometers_acquisition_time\Generic\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_pins_v2_10</v>
+<v>Accelerometers_acquisition_time\Generic\cy_pins_v2_10\cy_pins_v2_10.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_pins_v2_20</v>
+<v>Accelerometers_acquisition_time\Generic\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_srff_v1_0</v>
+<v>Accelerometers_acquisition_time\Generic\cy_srff_v1_0\cy_srff_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_sync_v1_0</v>
+<v>Accelerometers_acquisition_time\Generic\cy_sync_v1_0\cy_sync_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\CyControlReg_v1_80</v>
+<v>Accelerometers_acquisition_time\Generic\CyControlReg_v1_80\CyControlReg_v1_80.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cydff_v1_30</v>
+<v>Accelerometers_acquisition_time\Generic\cydff_v1_30\cydff_v1_30.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\CyStatusReg_v1_90</v>
+<v>Accelerometers_acquisition_time\Generic\CyStatusReg_v1_90\CyStatusReg_v1_90.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\demux_v1_10</v>
+<v>Accelerometers_acquisition_time\Generic\demux_v1_10\demux_v1_10.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\DigitalComp_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\EEPROM_v3_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\emFile_v1_20.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\mux_v1_10</v>
+<v>Accelerometers_acquisition_time\Generic\mux_v1_10\mux_v1_10.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\not_v1_0</v>
+<v>Accelerometers_acquisition_time\Generic\not_v1_0\not_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\or_v1_0</v>
+<v>Accelerometers_acquisition_time\Generic\or_v1_0\or_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\PWM_v3_30</v>
+<v>Accelerometers_acquisition_time\Generic\PWM_v3_30\PWM_v3_30.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\ShiftReg_v2_30</v>
+<v>Accelerometers_acquisition_time\Generic\ShiftReg_v2_30\ShiftReg_v2_30.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\SPI_Master_v2_50.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\Timer_v2_70</v>
+<v>Accelerometers_acquisition_time\Generic\Timer_v2_70\Timer_v2_70.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\UART_v2_50.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\ZeroTerminal</v>
+<v>Accelerometers_acquisition_time\Generic\ZeroTerminal\ZeroTerminal.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Accelerometers_acquisition_time</v>
+<v>Accelerometers_acquisition_time\Generic</v>
+<v>Accelerometers_acquisition_time\Generic\PSoC 5LP Architecture TRM</v>
+<v>Accelerometers_acquisition_time\Generic\CY8C58LP Family Datasheet</v>
+<v>Accelerometers_acquisition_time\Generic\System Reference Guides</v>
+<v>Accelerometers_acquisition_time\Generic\System Reference Guides\cy_boot_v5_70</v>
+<v>Accelerometers_acquisition_time\Generic\ADC_DelSig_v3_20.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\AMuxHw_v1_50.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\and_v1_0</v>
+<v>Accelerometers_acquisition_time\Generic\and_v1_0\and_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\BasicCounter_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\Bootloadable_v1_60.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\Counter_v3_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_clock_v2_20</v>
+<v>Accelerometers_acquisition_time\Generic\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_constant_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_dma_v1_70.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_isr_v1_70</v>
+<v>Accelerometers_acquisition_time\Generic\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_pins_v2_10</v>
+<v>Accelerometers_acquisition_time\Generic\cy_pins_v2_10\cy_pins_v2_10.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_pins_v2_20</v>
+<v>Accelerometers_acquisition_time\Generic\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_srff_v1_0</v>
+<v>Accelerometers_acquisition_time\Generic\cy_srff_v1_0\cy_srff_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cy_sync_v1_0</v>
+<v>Accelerometers_acquisition_time\Generic\cy_sync_v1_0\cy_sync_v1_0.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\CyControlReg_v1_80</v>
+<v>Accelerometers_acquisition_time\Generic\CyControlReg_v1_80\CyControlReg_v1_80.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\cydff_v1_30</v>
+<v>Accelerometers_acquisition_time\Generic\cydff_v1_30\cydff_v1_30.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\CyStatusReg_v1_90</v>
+<v>Accelerometers_acquisition_time\Generic\CyStatusReg_v1_90\CyStatusReg_v1_90.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\demux_v1_10</v>
+<v>Accelerometers_acquisition_time\Generic\demux_v1_10\demux_v1_10.pdf</v>
+<v>Accelerometers_acquisition_time\Generic\DigitalComp_v1_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs />
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1204, 484" SelectedTabbedMdiWindow="e6c53592-2600-47bd-bb84-e80a1b9fa9d1"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="Release" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
