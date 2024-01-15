@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
   12:Generated_Source\PSoC5/SPI_IMU_PM.c **** * Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
   13:Generated_Source\PSoC5/SPI_IMU_PM.c **** * You may use this file only in accordance with the license, terms, conditions,
   14:Generated_Source\PSoC5/SPI_IMU_PM.c **** * disclaimers, and limitations in the end user license agreement accompanying
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 2
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 2
 
 
   15:Generated_Source\PSoC5/SPI_IMU_PM.c **** * the software package with which this file was provided.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
   50              		.cfi_endproc
   51              	.LFE1:
   52              		.size	SPI_IMU_RestoreConfig, .-SPI_IMU_RestoreConfig
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 3
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 3
 
 
   53              		.section	.text.SPI_IMU_Sleep,"ax",%progbits
@@ -176,9 +176,9 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
   75              	.L5:
   76              		.align	2
   77              	.L4:
-  78 0010 9A640040 		.word	1073767578
+  78 0010 9D640040 		.word	1073767581
   79 0014 00000000 		.word	.LANCHOR0
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 4
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 4
 
 
   80              		.cfi_endproc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  128:Generated_Source\PSoC5/SPI_IMU_PM.c ****         SPI_IMU_rxBufferRead  = 0u;
  129:Generated_Source\PSoC5/SPI_IMU_PM.c ****         SPI_IMU_rxBufferWrite = 0u;
  130:Generated_Source\PSoC5/SPI_IMU_PM.c ****     #endif /* (SPI_IMU_RX_SOFTWARE_BUF_ENABLED) */
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 5
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 5
 
 
  131:Generated_Source\PSoC5/SPI_IMU_PM.c **** 
@@ -298,40 +298,40 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  136              		.section	.debug_info,"",%progbits
  137              	.Ldebug_info0:
  138 0000 64010000 		.4byte	0x164
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 6
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 6
 
 
  139 0004 0400     		.2byte	0x4
  140 0006 00000000 		.4byte	.Ldebug_abbrev0
  141 000a 04       		.byte	0x4
  142 000b 01       		.uleb128 0x1
- 143 000c F9000000 		.4byte	.LASF24
+ 143 000c 44010000 		.4byte	.LASF24
  144 0010 0C       		.byte	0xc
  145 0011 45000000 		.4byte	.LASF25
- 146 0015 F7010000 		.4byte	.LASF26
+ 146 0015 E8000000 		.4byte	.LASF26
  147 0019 00000000 		.4byte	.Ldebug_ranges0+0
  148 001d 00000000 		.4byte	0
  149 0021 00000000 		.4byte	.Ldebug_line0
  150 0025 02       		.uleb128 0x2
  151 0026 01       		.byte	0x1
  152 0027 06       		.byte	0x6
- 153 0028 B3010000 		.4byte	.LASF0
+ 153 0028 FE010000 		.4byte	.LASF0
  154 002c 02       		.uleb128 0x2
  155 002d 01       		.byte	0x1
  156 002e 08       		.byte	0x8
- 157 002f BA000000 		.4byte	.LASF1
+ 157 002f B0000000 		.4byte	.LASF1
  158 0033 02       		.uleb128 0x2
  159 0034 02       		.byte	0x2
  160 0035 05       		.byte	0x5
- 161 0036 93000000 		.4byte	.LASF2
+ 161 0036 42020000 		.4byte	.LASF2
  162 003a 02       		.uleb128 0x2
  163 003b 02       		.byte	0x2
  164 003c 07       		.byte	0x7
- 165 003d A0010000 		.4byte	.LASF3
+ 165 003d EB010000 		.4byte	.LASF3
  166 0041 02       		.uleb128 0x2
  167 0042 04       		.byte	0x4
  168 0043 05       		.byte	0x5
- 169 0044 DC000000 		.4byte	.LASF4
+ 169 0044 D2000000 		.4byte	.LASF4
  170 0048 02       		.uleb128 0x2
  171 0049 04       		.byte	0x4
  172 004a 07       		.byte	0x7
@@ -343,7 +343,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  178 0056 02       		.uleb128 0x2
  179 0057 08       		.byte	0x8
  180 0058 07       		.byte	0x7
- 181 0059 9D000000 		.4byte	.LASF7
+ 181 0059 93000000 		.4byte	.LASF7
  182 005d 03       		.uleb128 0x3
  183 005e 04       		.byte	0x4
  184 005f 05       		.byte	0x5
@@ -358,22 +358,22 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  193 0071 E901     		.2byte	0x1e9
  194 0073 2C000000 		.4byte	0x2c
  195 0077 02       		.uleb128 0x2
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 7
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 7
 
 
  196 0078 04       		.byte	0x4
  197 0079 04       		.byte	0x4
- 198 007a B4000000 		.4byte	.LASF9
+ 198 007a AA000000 		.4byte	.LASF9
  199 007e 02       		.uleb128 0x2
  200 007f 08       		.byte	0x8
  201 0080 04       		.byte	0x4
- 202 0081 F2000000 		.4byte	.LASF10
+ 202 0081 3D010000 		.4byte	.LASF10
  203 0085 02       		.uleb128 0x2
  204 0086 01       		.byte	0x1
  205 0087 08       		.byte	0x8
- 206 0088 D7000000 		.4byte	.LASF11
+ 206 0088 CD000000 		.4byte	.LASF11
  207 008c 04       		.uleb128 0x4
- 208 008d 38020000 		.4byte	.LASF13
+ 208 008d 4C020000 		.4byte	.LASF13
  209 0091 02       		.byte	0x2
  210 0092 9302     		.2byte	0x293
  211 0094 98000000 		.4byte	0x98
@@ -382,11 +382,11 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  214 009d 02       		.uleb128 0x2
  215 009e 08       		.byte	0x8
  216 009f 04       		.byte	0x4
- 217 00a0 EB010000 		.4byte	.LASF14
+ 217 00a0 36020000 		.4byte	.LASF14
  218 00a4 02       		.uleb128 0x2
  219 00a5 04       		.byte	0x4
  220 00a6 07       		.byte	0x7
- 221 00a7 3D020000 		.4byte	.LASF15
+ 221 00a7 51020000 		.4byte	.LASF15
  222 00ab 06       		.uleb128 0x6
  223 00ac 02       		.byte	0x2
  224 00ad 03       		.byte	0x3
@@ -399,33 +399,33 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  231 00ba 6B000000 		.4byte	0x6b
  232 00be 00       		.byte	0
  233 00bf 07       		.uleb128 0x7
- 234 00c0 95010000 		.4byte	.LASF17
+ 234 00c0 E0010000 		.4byte	.LASF17
  235 00c4 03       		.byte	0x3
  236 00c5 43       		.byte	0x43
  237 00c6 6B000000 		.4byte	0x6b
  238 00ca 01       		.byte	0x1
  239 00cb 00       		.byte	0
  240 00cc 08       		.uleb128 0x8
- 241 00cd D5010000 		.4byte	.LASF18
+ 241 00cd 20020000 		.4byte	.LASF18
  242 00d1 03       		.byte	0x3
  243 00d2 44       		.byte	0x44
  244 00d3 AB000000 		.4byte	0xab
  245 00d7 09       		.uleb128 0x9
- 246 00d8 BF010000 		.4byte	.LASF27
+ 246 00d8 0A020000 		.4byte	.LASF27
  247 00dc 01       		.byte	0x1
  248 00dd 3D       		.byte	0x3d
  249 00de 01       		.byte	0x1
  250 00df 0A       		.uleb128 0xa
  251 00e0 D7000000 		.4byte	0xd7
  252 00e4 00000000 		.4byte	.LFB1
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 8
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 8
 
 
  253 00e8 02000000 		.4byte	.LFE1-.LFB1
  254 00ec 01       		.uleb128 0x1
  255 00ed 9C       		.byte	0x9c
  256 00ee 0B       		.uleb128 0xb
- 257 00ef 87010000 		.4byte	.LASF19
+ 257 00ef D2010000 		.4byte	.LASF19
  258 00f3 01       		.byte	0x1
  259 00f4 57       		.byte	0x57
  260 00f5 00000000 		.4byte	.LFB2
@@ -454,7 +454,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  283 0130 5C010000 		.4byte	0x15c
  284 0134 00       		.byte	0
  285 0135 0E       		.uleb128 0xe
- 286 0136 C8000000 		.4byte	.LASF28
+ 286 0136 BE000000 		.4byte	.LASF28
  287 013a 01       		.byte	0x1
  288 013b 14       		.byte	0x14
  289 013c CC000000 		.4byte	0xcc
@@ -462,8 +462,8 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  291 0141 03       		.byte	0x3
  292 0142 00000000 		.4byte	SPI_IMU_backup
  293 0146 0F       		.uleb128 0xf
- 294 0147 E5000000 		.4byte	.LASF21
- 295 014b E5000000 		.4byte	.LASF21
+ 294 0147 DB000000 		.4byte	.LASF21
+ 295 014b DB000000 		.4byte	.LASF21
  296 014f 03       		.byte	0x3
  297 0150 4E       		.byte	0x4e
  298 0151 0F       		.uleb128 0xf
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  307 0166 4C       		.byte	0x4c
  308 0167 00       		.byte	0
  309              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 9
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 9
 
 
  310              	.Ldebug_abbrev0:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  364 0035 00       		.byte	0
  365 0036 05       		.uleb128 0x5
  366 0037 35       		.uleb128 0x35
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 10
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 10
 
 
  367 0038 00       		.byte	0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  421 006e 0B       		.uleb128 0xb
  422 006f 3B       		.uleb128 0x3b
  423 0070 0B       		.uleb128 0xb
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 11
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 11
 
 
  424 0071 27       		.uleb128 0x27
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  478 00ac 13       		.uleb128 0x13
  479 00ad 00       		.byte	0
  480 00ae 00       		.byte	0
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 12
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 12
 
 
  481 00af 0D       		.uleb128 0xd
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  535 0020 00000000 		.4byte	.LFB3
  536 0024 1C000000 		.4byte	.LFE3-.LFB3
  537 0028 00000000 		.4byte	0
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 13
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 13
 
 
  538 002c 00000000 		.4byte	0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  566              	.LASF12:
  567 007b 75696E74 		.ascii	"uint8\000"
  567      3800
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 14
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 14
 
 
  568              	.LASF5:
@@ -787,117 +787,117 @@ ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 1
  569      69676E65 
  569      6420696E 
  569      7400
- 570              	.LASF2:
- 571 0093 73686F72 		.ascii	"short int\000"
- 571      7420696E 
- 571      7400
- 572              	.LASF7:
- 573 009d 6C6F6E67 		.ascii	"long long unsigned int\000"
- 573      206C6F6E 
- 573      6720756E 
- 573      7369676E 
- 573      65642069 
- 574              	.LASF9:
- 575 00b4 666C6F61 		.ascii	"float\000"
- 575      7400
- 576              	.LASF1:
- 577 00ba 756E7369 		.ascii	"unsigned char\000"
- 577      676E6564 
- 577      20636861 
- 577      7200
- 578              	.LASF28:
- 579 00c8 5350495F 		.ascii	"SPI_IMU_backup\000"
- 579      494D555F 
- 579      6261636B 
- 579      757000
- 580              	.LASF11:
- 581 00d7 63686172 		.ascii	"char\000"
+ 570              	.LASF7:
+ 571 0093 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 571      206C6F6E 
+ 571      6720756E 
+ 571      7369676E 
+ 571      65642069 
+ 572              	.LASF9:
+ 573 00aa 666C6F61 		.ascii	"float\000"
+ 573      7400
+ 574              	.LASF1:
+ 575 00b0 756E7369 		.ascii	"unsigned char\000"
+ 575      676E6564 
+ 575      20636861 
+ 575      7200
+ 576              	.LASF28:
+ 577 00be 5350495F 		.ascii	"SPI_IMU_backup\000"
+ 577      494D555F 
+ 577      6261636B 
+ 577      757000
+ 578              	.LASF11:
+ 579 00cd 63686172 		.ascii	"char\000"
+ 579      00
+ 580              	.LASF4:
+ 581 00d2 6C6F6E67 		.ascii	"long int\000"
+ 581      20696E74 
  581      00
- 582              	.LASF4:
- 583 00dc 6C6F6E67 		.ascii	"long int\000"
- 583      20696E74 
+ 582              	.LASF21:
+ 583 00db 5350495F 		.ascii	"SPI_IMU_Stop\000"
+ 583      494D555F 
+ 583      53746F70 
  583      00
- 584              	.LASF21:
- 585 00e5 5350495F 		.ascii	"SPI_IMU_Stop\000"
- 585      494D555F 
- 585      53746F70 
- 585      00
- 586              	.LASF10:
- 587 00f2 646F7562 		.ascii	"double\000"
- 587      6C6500
- 588              	.LASF24:
- 589 00f9 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 589      43313120 
- 589      352E342E 
- 589      31203230 
- 589      31363036 
- 590 012c 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 590      20726576 
- 590      6973696F 
- 590      6E203233 
- 590      37373135 
- 591 015f 73202D66 		.ascii	"s -ffunction-sections -ffat-lto-objects\000"
- 591      66756E63 
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 15
+ 584              	.LASF26:
+ 585 00e8 433A5C55 		.ascii	"C:\\Users\\mgnocco\\Documents\\Git\\PSoC5\\IMU_Spee"
+ 585      73657273 
+ 585      5C6D676E 
+ 585      6F63636F 
+ 585      5C446F63 
+ 586 0115 64546573 		.ascii	"dTest\\LSM6DSRX_SpeedTest\\Design02.cydsn\000"
+ 586      745C4C53 
+ 586      4D364453 
+ 586      52585F53 
+ 586      70656564 
+ 587              	.LASF10:
+ 588 013d 646F7562 		.ascii	"double\000"
+ 588      6C6500
+ 589              	.LASF24:
+ 590 0144 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 590      43313120 
+ 590      352E342E 
+ 590      31203230 
+ 590      31363036 
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 15
 
 
- 591      74696F6E 
- 591      2D736563 
- 591      74696F6E 
- 592              	.LASF19:
- 593 0187 5350495F 		.ascii	"SPI_IMU_Sleep\000"
- 593      494D555F 
- 593      536C6565 
- 593      7000
- 594              	.LASF17:
- 595 0195 636E7472 		.ascii	"cntrPeriod\000"
- 595      50657269 
- 595      6F6400
- 596              	.LASF3:
- 597 01a0 73686F72 		.ascii	"short unsigned int\000"
- 597      7420756E 
- 597      7369676E 
- 597      65642069 
- 597      6E7400
- 598              	.LASF0:
- 599 01b3 7369676E 		.ascii	"signed char\000"
- 599      65642063 
- 599      68617200 
- 600              	.LASF27:
- 601 01bf 5350495F 		.ascii	"SPI_IMU_RestoreConfig\000"
- 601      494D555F 
- 601      52657374 
- 601      6F726543 
- 601      6F6E6669 
- 602              	.LASF18:
- 603 01d5 5350495F 		.ascii	"SPI_IMU_BACKUP_STRUCT\000"
- 603      494D555F 
- 603      4241434B 
- 603      55505F53 
- 603      54525543 
- 604              	.LASF14:
- 605 01eb 6C6F6E67 		.ascii	"long double\000"
- 605      20646F75 
- 605      626C6500 
- 606              	.LASF26:
- 607 01f7 433A5C55 		.ascii	"C:\\Users\\mgnocco\\Documents\\Git\\LSM6DSRX_SpeedT"
- 607      73657273 
- 607      5C6D676E 
- 607      6F63636F 
- 607      5C446F63 
- 608 0225 6573745C 		.ascii	"est\\Design02.cydsn\000"
- 608      44657369 
- 608      676E3032 
- 608      2E637964 
- 608      736E00
+ 591 0177 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 591      20726576 
+ 591      6973696F 
+ 591      6E203233 
+ 591      37373135 
+ 592 01aa 73202D66 		.ascii	"s -ffunction-sections -ffat-lto-objects\000"
+ 592      66756E63 
+ 592      74696F6E 
+ 592      2D736563 
+ 592      74696F6E 
+ 593              	.LASF19:
+ 594 01d2 5350495F 		.ascii	"SPI_IMU_Sleep\000"
+ 594      494D555F 
+ 594      536C6565 
+ 594      7000
+ 595              	.LASF17:
+ 596 01e0 636E7472 		.ascii	"cntrPeriod\000"
+ 596      50657269 
+ 596      6F6400
+ 597              	.LASF3:
+ 598 01eb 73686F72 		.ascii	"short unsigned int\000"
+ 598      7420756E 
+ 598      7369676E 
+ 598      65642069 
+ 598      6E7400
+ 599              	.LASF0:
+ 600 01fe 7369676E 		.ascii	"signed char\000"
+ 600      65642063 
+ 600      68617200 
+ 601              	.LASF27:
+ 602 020a 5350495F 		.ascii	"SPI_IMU_RestoreConfig\000"
+ 602      494D555F 
+ 602      52657374 
+ 602      6F726543 
+ 602      6F6E6669 
+ 603              	.LASF18:
+ 604 0220 5350495F 		.ascii	"SPI_IMU_BACKUP_STRUCT\000"
+ 604      494D555F 
+ 604      4241434B 
+ 604      55505F53 
+ 604      54525543 
+ 605              	.LASF14:
+ 606 0236 6C6F6E67 		.ascii	"long double\000"
+ 606      20646F75 
+ 606      626C6500 
+ 607              	.LASF2:
+ 608 0242 73686F72 		.ascii	"short int\000"
+ 608      7420696E 
+ 608      7400
  609              	.LASF13:
- 610 0238 72656738 		.ascii	"reg8\000"
+ 610 024c 72656738 		.ascii	"reg8\000"
  610      00
  611              	.LASF15:
- 612 023d 73697A65 		.ascii	"sizetype\000"
+ 612 0251 73697A65 		.ascii	"sizetype\000"
  612      74797065 
  612      00
  613              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
-ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccid05xh.s 			page 16
+ARM GAS  C:\Users\mgnocco\AppData\Local\Temp\ccZmeFFV.s 			page 16
 
 

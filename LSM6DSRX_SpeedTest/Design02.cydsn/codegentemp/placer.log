@@ -6,7 +6,7 @@
 
 #Build Date:         Sep  9 2019 11:47:43
 
-#File Generated:     Jan 15 2024 11:37:56
+#File Generated:     Jan 15 2024 14:23:43
 
 #Purpose:            
 
@@ -86,7 +86,7 @@ Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
 Clock: CyIMO                | Frequency: N/A       | Target:   3.0 MHz
 Clock: CyMASTER_CLK         | Frequency: N/A       | Target:  24.0 MHz
 Clock: CyPLL_OUT            | Frequency: N/A       | Target:  24.0 MHz
-Clock: SPI_IMU_IntClock     | Frequency:  60.2 MHz | Target:  24.0 MHz
+Clock: SPI_IMU_IntClock     | Frequency:  60.2 MHz | Target:   2.0 MHz
 Clock: UART_IntClock        | Frequency:  53.6 MHz | Target:   0.5 MHz
 Clock: timer_clock          | Frequency:  43.5 MHz | Target:   1.0 MHz
 
@@ -107,7 +107,7 @@ Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
 Clock: CyIMO                | Frequency: N/A       | Target:   3.0 MHz
 Clock: CyMASTER_CLK         | Frequency: N/A       | Target:  24.0 MHz
 Clock: CyPLL_OUT            | Frequency: N/A       | Target:  24.0 MHz
-Clock: SPI_IMU_IntClock     | Frequency:  60.2 MHz | Target:  24.0 MHz
+Clock: SPI_IMU_IntClock     | Frequency:  60.2 MHz | Target:   2.0 MHz
 Clock: UART_IntClock        | Frequency:   2.7 MHz | Target:   0.5 MHz
 Clock: timer_clock          | Frequency:   2.5 MHz | Target:   1.0 MHz
 
@@ -151,7 +151,7 @@ Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
 Clock: CyIMO                | Frequency: N/A       | Target:   3.0 MHz
 Clock: CyMASTER_CLK         | Frequency: N/A       | Target:  24.0 MHz
 Clock: CyPLL_OUT            | Frequency: N/A       | Target:  24.0 MHz
-Clock: SPI_IMU_IntClock     | Frequency:  56.5 MHz | Target:  24.0 MHz
+Clock: SPI_IMU_IntClock     | Frequency:  56.5 MHz | Target:   2.0 MHz
 Clock: UART_IntClock        | Frequency:   2.9 MHz | Target:   0.5 MHz
 Clock: timer_clock          | Frequency:   2.6 MHz | Target:   1.0 MHz
 

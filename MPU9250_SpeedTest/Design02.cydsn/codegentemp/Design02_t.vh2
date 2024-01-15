@@ -1,5 +1,5 @@
 -- Project:   C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\MPU9250_SpeedTest\Design02.cydsn\Design02.cyprj
--- Generated: 01/15/2024 12:21:57
+-- Generated: 01/15/2024 14:38:08
 -- PSoC Creator  4.4
 
 ENTITY Design02 IS
@@ -123,17 +123,17 @@ ARCHITECTURE __DEFAULT__ OF Design02 IS
     SIGNAL \SPI_IMU:BSPIM:rx_status_6\ : bit;
     ATTRIBUTE placement_force OF \SPI_IMU:BSPIM:rx_status_6\ : SIGNAL IS "U(0,5,B)3";
     SIGNAL \SPI_IMU:BSPIM:state_0\ : bit;
-    ATTRIBUTE placement_force OF \SPI_IMU:BSPIM:state_0\ : SIGNAL IS "U(1,4,A)0";
+    ATTRIBUTE placement_force OF \SPI_IMU:BSPIM:state_0\ : SIGNAL IS "U(1,5,B)1";
     SIGNAL \SPI_IMU:BSPIM:state_1\ : bit;
-    ATTRIBUTE placement_force OF \SPI_IMU:BSPIM:state_1\ : SIGNAL IS "U(1,5,B)1";
+    ATTRIBUTE placement_force OF \SPI_IMU:BSPIM:state_1\ : SIGNAL IS "U(0,4,B)0";
     SIGNAL \SPI_IMU:BSPIM:state_2\ : bit;
     ATTRIBUTE placement_force OF \SPI_IMU:BSPIM:state_2\ : SIGNAL IS "U(1,5,A)3";
     SIGNAL \SPI_IMU:BSPIM:tx_status_0\ : bit;
-    ATTRIBUTE placement_force OF \SPI_IMU:BSPIM:tx_status_0\ : SIGNAL IS "U(0,3,B)1";
+    ATTRIBUTE placement_force OF \SPI_IMU:BSPIM:tx_status_0\ : SIGNAL IS "U(0,5,B)2";
     SIGNAL \SPI_IMU:BSPIM:tx_status_1\ : bit;
     SIGNAL \SPI_IMU:BSPIM:tx_status_2\ : bit;
     SIGNAL \SPI_IMU:BSPIM:tx_status_4\ : bit;
-    ATTRIBUTE placement_force OF \SPI_IMU:BSPIM:tx_status_4\ : SIGNAL IS "U(0,5,B)2";
+    ATTRIBUTE placement_force OF \SPI_IMU:BSPIM:tx_status_4\ : SIGNAL IS "U(0,3,B)1";
     SIGNAL \SPI_IMU:Net_276\ : bit;
     ATTRIBUTE udbclken_assigned OF \SPI_IMU:Net_276\ : SIGNAL IS "True";
     ATTRIBUTE global_signal OF \SPI_IMU:Net_276\ : SIGNAL IS true;
@@ -155,7 +155,7 @@ ARCHITECTURE __DEFAULT__ OF Design02 IS
     SIGNAL \UART:BUART:rx_count_5\ : bit;
     SIGNAL \UART:BUART:rx_count_6\ : bit;
     SIGNAL \UART:BUART:rx_counter_load\ : bit;
-    ATTRIBUTE placement_force OF \UART:BUART:rx_counter_load\ : SIGNAL IS "U(0,2,A)2";
+    ATTRIBUTE placement_force OF \UART:BUART:rx_counter_load\ : SIGNAL IS "U(0,1,B)3";
     SIGNAL \UART:BUART:rx_fifofull\ : bit;
     SIGNAL \UART:BUART:rx_fifonotempty\ : bit;
     SIGNAL \UART:BUART:rx_last\ : bit;
@@ -171,7 +171,7 @@ ARCHITECTURE __DEFAULT__ OF Design02 IS
     SIGNAL \UART:BUART:rx_state_3\ : bit;
     ATTRIBUTE placement_force OF \UART:BUART:rx_state_3\ : SIGNAL IS "U(0,2,A)1";
     SIGNAL \UART:BUART:rx_state_stop1_reg\ : bit;
-    ATTRIBUTE placement_force OF \UART:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(0,1,B)3";
+    ATTRIBUTE placement_force OF \UART:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(0,2,A)2";
     SIGNAL \UART:BUART:rx_status_3\ : bit;
     ATTRIBUTE placement_force OF \UART:BUART:rx_status_3\ : SIGNAL IS "U(0,0,B)0";
     SIGNAL \UART:BUART:rx_status_4\ : bit;
@@ -204,7 +204,7 @@ ARCHITECTURE __DEFAULT__ OF Design02 IS
     ATTRIBUTE global_signal OF \UART:Net_9\ : SIGNAL IS true;
     SIGNAL \UART:Net_9_local\ : bit;
     SIGNAL __ONE__ : bit;
-    ATTRIBUTE placement_force OF __ONE__ : SIGNAL IS "U(2,1,A)0";
+    ATTRIBUTE placement_force OF __ONE__ : SIGNAL IS "U(1,0,A)3";
     ATTRIBUTE POWER OF __ONE__ : SIGNAL IS true;
     SIGNAL __ZERO__ : bit;
     ATTRIBUTE GROUND OF __ZERO__ : SIGNAL IS true;
@@ -258,9 +258,9 @@ ARCHITECTURE __DEFAULT__ OF Design02 IS
     ATTRIBUTE lib_model OF \SPI_IMU:BSPIM:load_rx_data\ : LABEL IS "macrocell1";
     ATTRIBUTE Location OF \SPI_IMU:BSPIM:load_rx_data\ : LABEL IS "U(0,4)";
     ATTRIBUTE lib_model OF \SPI_IMU:BSPIM:tx_status_0\ : LABEL IS "macrocell2";
-    ATTRIBUTE Location OF \SPI_IMU:BSPIM:tx_status_0\ : LABEL IS "U(0,3)";
+    ATTRIBUTE Location OF \SPI_IMU:BSPIM:tx_status_0\ : LABEL IS "U(0,5)";
     ATTRIBUTE lib_model OF \SPI_IMU:BSPIM:tx_status_4\ : LABEL IS "macrocell3";
-    ATTRIBUTE Location OF \SPI_IMU:BSPIM:tx_status_4\ : LABEL IS "U(0,5)";
+    ATTRIBUTE Location OF \SPI_IMU:BSPIM:tx_status_4\ : LABEL IS "U(0,3)";
     ATTRIBUTE lib_model OF \SPI_IMU:BSPIM:rx_status_6\ : LABEL IS "macrocell4";
     ATTRIBUTE Location OF \SPI_IMU:BSPIM:rx_status_6\ : LABEL IS "U(0,5)";
     ATTRIBUTE lib_model OF Net_383 : LABEL IS "macrocell5";
@@ -274,7 +274,7 @@ ARCHITECTURE __DEFAULT__ OF Design02 IS
     ATTRIBUTE lib_model OF \UART:BUART:tx_status_2\ : LABEL IS "macrocell9";
     ATTRIBUTE Location OF \UART:BUART:tx_status_2\ : LABEL IS "U(1,3)";
     ATTRIBUTE lib_model OF \UART:BUART:rx_counter_load\ : LABEL IS "macrocell10";
-    ATTRIBUTE Location OF \UART:BUART:rx_counter_load\ : LABEL IS "U(0,2)";
+    ATTRIBUTE Location OF \UART:BUART:rx_counter_load\ : LABEL IS "U(0,1)";
     ATTRIBUTE lib_model OF \UART:BUART:rx_postpoll\ : LABEL IS "macrocell11";
     ATTRIBUTE Location OF \UART:BUART:rx_postpoll\ : LABEL IS "U(0,1)";
     ATTRIBUTE lib_model OF \UART:BUART:rx_status_4\ : LABEL IS "macrocell12";
@@ -286,7 +286,7 @@ ARCHITECTURE __DEFAULT__ OF Design02 IS
     ATTRIBUTE lib_model OF Net_386 : LABEL IS "macrocell15";
     ATTRIBUTE Location OF Net_386 : LABEL IS "U(0,4)";
     ATTRIBUTE lib_model OF __ONE__ : LABEL IS "macrocell16";
-    ATTRIBUTE Location OF __ONE__ : LABEL IS "U(2,1)";
+    ATTRIBUTE Location OF __ONE__ : LABEL IS "U(1,0)";
     ATTRIBUTE Location OF \SPI_IMU:BSPIM:BitCounter\ : LABEL IS "U(1,3)";
     ATTRIBUTE lib_model OF \SPI_IMU:BSPIM:TxStsReg\ : LABEL IS "statusicell1";
     ATTRIBUTE Location OF \SPI_IMU:BSPIM:TxStsReg\ : LABEL IS "U(0,4)";
@@ -334,9 +334,9 @@ ARCHITECTURE __DEFAULT__ OF Design02 IS
     ATTRIBUTE lib_model OF \SPI_IMU:BSPIM:state_2\ : LABEL IS "macrocell19";
     ATTRIBUTE Location OF \SPI_IMU:BSPIM:state_2\ : LABEL IS "U(1,5)";
     ATTRIBUTE lib_model OF \SPI_IMU:BSPIM:state_1\ : LABEL IS "macrocell20";
-    ATTRIBUTE Location OF \SPI_IMU:BSPIM:state_1\ : LABEL IS "U(1,5)";
+    ATTRIBUTE Location OF \SPI_IMU:BSPIM:state_1\ : LABEL IS "U(0,4)";
     ATTRIBUTE lib_model OF \SPI_IMU:BSPIM:state_0\ : LABEL IS "macrocell21";
-    ATTRIBUTE Location OF \SPI_IMU:BSPIM:state_0\ : LABEL IS "U(1,4)";
+    ATTRIBUTE Location OF \SPI_IMU:BSPIM:state_0\ : LABEL IS "U(1,5)";
     ATTRIBUTE lib_model OF Net_390 : LABEL IS "macrocell22";
     ATTRIBUTE Location OF Net_390 : LABEL IS "U(0,3)";
     ATTRIBUTE lib_model OF \SPI_IMU:BSPIM:load_cond\ : LABEL IS "macrocell23";
@@ -368,7 +368,7 @@ ARCHITECTURE __DEFAULT__ OF Design02 IS
     ATTRIBUTE lib_model OF \UART:BUART:rx_bitclk_enable\ : LABEL IS "macrocell36";
     ATTRIBUTE Location OF \UART:BUART:rx_bitclk_enable\ : LABEL IS "U(0,3)";
     ATTRIBUTE lib_model OF \UART:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell37";
-    ATTRIBUTE Location OF \UART:BUART:rx_state_stop1_reg\ : LABEL IS "U(0,1)";
+    ATTRIBUTE Location OF \UART:BUART:rx_state_stop1_reg\ : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART:BUART:pollcount_1\ : LABEL IS "macrocell38";
     ATTRIBUTE Location OF \UART:BUART:pollcount_1\ : LABEL IS "U(0,1)";
     ATTRIBUTE lib_model OF \UART:BUART:pollcount_0\ : LABEL IS "macrocell39";

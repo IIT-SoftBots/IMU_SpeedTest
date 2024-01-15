@@ -1,6 +1,6 @@
-C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\MPU9250_SpeedTest\Design02.cydsn\Design02.cyprj|bad3f239-f7e9-49d2-a6e6-7c034642dae6
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|c7decf95-edce-435f-b0bb-ffec5def659e
-C:\Users\mgnocco\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|4b82932d-faf5-434d-acda-9209eadd5bad
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|316d9623-1845-4e0c-8bf8-675cc23a3d5e
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|a27be05f-1cf9-4fa2-b683-99a8dc2ef0ff
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|46be2b95-8e78-4886-8d3f-3da9cf5bb4a1
+C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\MPU9250_SpeedTest\Design02.cydsn\Design02.cyprj|c0d2103b-4e55-4b29-8775-cb1d3928abb8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|8aa35f0f-e731-4a9f-a203-44947a83e26b
+C:\Users\mgnocco\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|57bdcf5f-f0bf-4047-a723-dac35d34a3f8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|d9eb3344-11fc-4277-87ac-7d8b95f429b1
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|866574d0-23c6-4403-be93-99d91d21d7a5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|1ebd9127-4b6e-48de-ae04-1292193dd94f

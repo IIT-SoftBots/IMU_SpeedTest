@@ -13,9 +13,10 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="LSM6DSRX_SpeedTest\Design02">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="LSM6DSRX_SpeedTest\Design02\TopDesign">
 <ExpandedNodeIds>
 <v>LSM6DSRX_SpeedTest</v>
+<v>LSM6DSRX_SpeedTest\Design02</v>
 <v>LSM6DSRX_SpeedTest\Design02\TopDesign</v>
 <v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr</v>
 <v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr\Pins</v>
@@ -42,6 +43,24 @@
 <VisibleNodeIds>
 <v>LSM6DSRX_SpeedTest</v>
 <v>LSM6DSRX_SpeedTest\Design02</v>
+<v>LSM6DSRX_SpeedTest\Design02\TopDesign</v>
+<v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr</v>
+<v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr\Pins</v>
+<v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr\Analog</v>
+<v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr\Clocks</v>
+<v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr\Interrupts</v>
+<v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr\DMA</v>
+<v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr\System</v>
+<v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr\Directives</v>
+<v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr\Flash Security</v>
+<v>LSM6DSRX_SpeedTest\Design02\Design02.cydwr\EEPROM</v>
+<v>LSM6DSRX_SpeedTest\Design02\Header Files</v>
+<v>LSM6DSRX_SpeedTest\Design02\Header Files\cyapicallbacks.h</v>
+<v>LSM6DSRX_SpeedTest\Design02\Header Files\globals.h</v>
+<v>LSM6DSRX_SpeedTest\Design02\Header Files\header01.h</v>
+<v>LSM6DSRX_SpeedTest\Design02\Source Files</v>
+<v>LSM6DSRX_SpeedTest\Design02\Source Files\main.c</v>
+<v>LSM6DSRX_SpeedTest\Design02\Source Files\source01.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -149,6 +168,24 @@
 <VisibleNodeIds>
 <v>LSM6DSRX_SpeedTest</v>
 <v>LSM6DSRX_SpeedTest\Design02</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1_PM.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\FF_STATUS.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -203,7 +240,6 @@
 <v>LSM6DSRX_SpeedTest\Design02\or_v1_0\or_v1_0.pdf</v>
 <v>LSM6DSRX_SpeedTest\Design02\SPI_Master_v2_50.pdf</v>
 <v>LSM6DSRX_SpeedTest\Design02\Timer_v2_70</v>
-<v>LSM6DSRX_SpeedTest\Design02\Timer_v2_70\Timer_v2_70.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -219,6 +255,7 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Design02.cydsn\main.c" />
+<name v=".\Design02.cydsn\TopDesign\TopDesign.cysch" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -226,7 +263,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1109, 485" SelectedTabbedMdiWindow="437aa56f-2c20-4e6a-a9ad-e72f171e8c43"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\LSM6DSRX_SpeedTest\Design02.cydsn\main.c" Guid="437aa56f-2c20-4e6a-a9ad-e72f171e8c43" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1235, 459" SelectedTabbedMdiWindow="9a0b9bfb-ad0b-4b94-af14-3a86aa02232b"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\main.c" Guid="b24d3c68-c60b-4348-958b-b796b9f6ae4b" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\TopDesign\TopDesign.cysch" Guid="9a0b9bfb-ad0b-4b94-af14-3a86aa02232b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="Release" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
