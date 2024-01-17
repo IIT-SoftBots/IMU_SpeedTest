@@ -31,15 +31,15 @@ void setup() {
 
     //////////////////////////////////////////////////////////////
 
-    delay(100);
 }
 
 void loop() {    
   t0 = micros();
-  char lsb = readRegister(0x40,1);  //Read the temperature data 
-  char msb = readRegister(0x3F,1);  //Read the temperature data 
-  int16_t AccX = (msb << 8) | lsb;
-  
+  byte lsb = readRegister(0x40,1);  //Read the temperature data 
+  byte msb = readRegister(0x3F,1);  //Read the temperature data 
+   t1 = micros();
+   int16_t AccX = (msb << 8) | lsb;
+ 
 /*
   char Ping = readRegister(0x2A ,1);  //Read the temperature data 
   char Ping = readRegister(0x2B ,1);  //Read the temperature data 
@@ -48,15 +48,12 @@ void loop() {
   char Ping = readRegister(0x2D ,1);  //Read the temperature data 
 */
 
-  t1 = micros();
   Serial.println(AccX);
-
+  
   tempo = t1 - t0;
-//    Serial.print(" tempo = ");
-
-//  Serial.print(tempo);
-//Serial.print("\n");
-delay(100);
+  Serial.print(" tempo = ");
+  Serial.print(tempo);
+  Serial.print("\n");
 }
 
 
@@ -64,7 +61,7 @@ byte readRegister(byte thisRegister, int bytesToRead) {
 
 dataToSend = thisRegister | 0b10000000;
 
-  SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE3) );
+  SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE3) );
   
   digitalWrite(CS, LOW);  
   
@@ -92,7 +89,7 @@ dataToSend = thisRegister | 0b10000000;
 void writeRegister(byte thisRegister, byte thisValue) {
   
   byte dataToSend = thisRegister;  // now combine the register address and the command into one byte:       
-  SPI.beginTransaction(SPISettings(100000, MSBFIRST, SPI_MODE3));
+  SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE3));
 
   digitalWrite(CS, LOW);// take the chip select low to select the device:
   
