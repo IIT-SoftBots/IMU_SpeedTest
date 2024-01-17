@@ -2,7 +2,7 @@
 --	Conversion of Design02.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Mon Jan 15 14:23:43 2024
+--	Tue Jan 16 12:08:08 2024
 --
 
 USE cypress.cypress.all;
@@ -1324,7 +1324,7 @@ MISO_SDO:cy_psoc3_pins_v1_10
 		id=>"9740a3eb-67c6-4d03-851e-c975847209e4/426fcbe0-714d-4404-8fa8-581ff40c30f1",
 		source_clock_id=>"",
 		divisor=>0,
-		period=>"500000000",
+		period=>"100000000",
 		is_direct=>'0',
 		is_digital=>'1')
 	PORT MAP(clock_out=>\SPI_IMU:Net_276\,
@@ -2253,7 +2253,7 @@ timer_clock:cy_clock_v1_0
 		control=>(\MY_TIMER_REG:control_7\, \MY_TIMER_REG:control_6\, \MY_TIMER_REG:control_5\, \MY_TIMER_REG:control_4\,
 			\MY_TIMER_REG:control_3\, \MY_TIMER_REG:control_2\, \MY_TIMER_REG:control_1\, Net_10653));
 \Control_Reg_1:Sync:ctrl_reg\:cy_psoc3_control
-	GENERIC MAP(cy_init_value=>"00000011",
+	GENERIC MAP(cy_init_value=>"00000000",
 		cy_force_order=>'1',
 		cy_ctrl_mode_1=>"00000000",
 		cy_ctrl_mode_0=>"00000000",

@@ -1,5 +1,5 @@
 -- Project:   Design02
--- Generated: 01/15/2024 14:23:43
+-- Generated: 01/16/2024 12:08:09
 -- PSoC Creator  4.4
 
 ENTITY Design02 IS
@@ -2041,7 +2041,7 @@ BEGIN
             cy_ctrl_mode_1 => "00000000",
             cy_ext_reset => 0,
             cy_force_order => 1,
-            cy_init_value => "00000011",
+            cy_init_value => "00000000",
             clken_mode => 1)
         PORT MAP(
             control_7 => \Control_Reg_1:control_7\,

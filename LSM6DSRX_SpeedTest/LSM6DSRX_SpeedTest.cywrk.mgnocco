@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="LSM6DSRX_SpeedTest\Design02\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="LSM6DSRX_SpeedTest\Design02\Header Files\header01.h">
 <ExpandedNodeIds>
 <v>LSM6DSRX_SpeedTest</v>
 <v>LSM6DSRX_SpeedTest\Design02</v>
@@ -61,6 +61,7 @@
 <v>LSM6DSRX_SpeedTest\Design02\Source Files</v>
 <v>LSM6DSRX_SpeedTest\Design02\Source Files\main.c</v>
 <v>LSM6DSRX_SpeedTest\Design02\Source Files\source01.c</v>
+<v>LSM6DSRX_SpeedTest\Design02\Generated_Source</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -186,6 +187,7 @@
 <v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
 <v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
 <v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\FF_STATUS.lst</v>
+<v>LSM6DSRX_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -240,6 +242,7 @@
 <v>LSM6DSRX_SpeedTest\Design02\or_v1_0\or_v1_0.pdf</v>
 <v>LSM6DSRX_SpeedTest\Design02\SPI_Master_v2_50.pdf</v>
 <v>LSM6DSRX_SpeedTest\Design02\Timer_v2_70</v>
+<v>LSM6DSRX_SpeedTest\Design02\Timer_v2_70\Timer_v2_70.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -256,6 +259,9 @@
 <OpenDocs>
 <name v=".\Design02.cydsn\main.c" />
 <name v=".\Design02.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Design02.cydsn\Design02.cydwr" />
+<name v=".\Design02.cydsn\source01.c" />
+<name v=".\Design02.cydsn\header01.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -263,7 +269,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1235, 459" SelectedTabbedMdiWindow="9a0b9bfb-ad0b-4b94-af14-3a86aa02232b"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\main.c" Guid="b24d3c68-c60b-4348-958b-b796b9f6ae4b" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\TopDesign\TopDesign.cysch" Guid="9a0b9bfb-ad0b-4b94-af14-3a86aa02232b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1493, 701" SelectedTabbedMdiWindow="0d45c4c0-3df3-4ab1-ac4c-009a80cdc749"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\main.c" Guid="b24d3c68-c60b-4348-958b-b796b9f6ae4b" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\TopDesign\TopDesign.cysch" Guid="9a0b9bfb-ad0b-4b94-af14-3a86aa02232b" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\Design02.cydwr" Guid="a45910c5-1454-49b1-ba2e-fcd719b4da79" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\source01.c" Guid="44afa820-7c2c-4e98-a609-7eb1a91f3606" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\header01.h" Guid="0d45c4c0-3df3-4ab1-ac4c-009a80cdc749" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="Release" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

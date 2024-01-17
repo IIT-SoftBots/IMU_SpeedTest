@@ -68,14 +68,14 @@ int main()
     */
   }
     
-   // Control_Reg_1_Write(3);
+    Control_Reg_1_Write(0);
     j = 0;
     count =0;
     
     for(;;)
     {   t0 = (uint16)MY_TIMER_ReadCounter();
-for (k=0;k<1; k++){
-   // Control_Reg_1_Write(k+1);
+for (k=0;k<2; k++){
+    Control_Reg_1_Write(k+1);
 //      ------------------------------------------------------------------------READ MAG
      /*   do 
         {
@@ -111,8 +111,9 @@ for (k=0;k<1; k++){
         for (i = 0; i < 6; i++){
             Gyro[k][j][i] = ReadControlRegisterSPI(LSM6DSRX_OUTX_L_G + i);
         }*/
+        Control_Reg_1_Write(0);
 }
-      // Control_Reg_1_Write(3);
+       
 
 //}        
 
@@ -128,7 +129,7 @@ for (k=0;k<1; k++){
         if (j > 9) {
             
             for(count = 0; count < 10; count++){ 
-                for (k=0;k<1;k++){
+                for (k=0;k<2;k++){
                 UART_PutChar(count);
                 UART_PutChar(0);
             
@@ -150,12 +151,12 @@ for (k=0;k<1; k++){
                     UART_PutChar( Mag[k][count][i]);
                 }
                 */
-                UART_PutChar('c');
+                
+}            UART_PutChar('c');
                 UART_PutChar('i');
                 UART_PutChar('a');
-}
             }
-            
+
             j = 0;
             
         } 
