@@ -10,7 +10,7 @@
   int t0, t1;
  int tempo;
    int16_t AccX =0;
-byte dataToSend, result ;
+byte dataToSend;
 void setup() {
     Serial.begin(9600);
     pinMode(MOSI, OUTPUT);
@@ -35,12 +35,15 @@ void setup() {
 
 void loop() {    
   t0 = micros();
+unsigned int AccX = readRegister(0x3F,2); 
+    t1 = micros(); 
+ /* 
   byte lsb = readRegister(0x40,1);  //Read the temperature data 
   byte msb = readRegister(0x3F,1);  //Read the temperature data 
-   t1 = micros();
+
    int16_t AccX = (msb << 8) | lsb;
  
-/*
+
   char Ping = readRegister(0x2A ,1);  //Read the temperature data 
   char Ping = readRegister(0x2B ,1);  //Read the temperature data 
 
@@ -57,8 +60,10 @@ void loop() {
 }
 
 
-byte readRegister(byte thisRegister, int bytesToRead) {
+unsigned int readRegister(byte thisRegister, int bytesToRead) {
+  byte inByte = 0;           // incoming byte from the SPI
 
+  unsigned int result = 0; 
 dataToSend = thisRegister | 0b10000000;
 
   SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE3) );
@@ -69,14 +74,14 @@ dataToSend = thisRegister | 0b10000000;
   
   result = SPI.transfer(0x00);
   
-  /*
+ 
   bytesToRead--;// decrement the number of bytes left to read:
   if (bytesToRead > 0) {// if you still have another byte to read:
     result = result << 8; // shift the first byte left, then get the second byte:
     inByte = SPI.transfer(0x00);
     result = result | inByte; // combine the byte you just got with the previous one:
     bytesToRead--; // decrement the number of bytes left to read:
-  }*/
+  }
   
   digitalWrite(CS, HIGH); // take the chip select high to de-select:
   
