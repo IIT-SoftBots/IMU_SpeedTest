@@ -239,6 +239,7 @@
 <OpenDocs>
 <name v=".\Design02.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\Design02.cydsn\main.c" />
+<name v=".\Design02.cydsn\header01.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -246,7 +247,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1109, 485" SelectedTabbedMdiWindow="9ce3e801-6fc7-499d-ac67-3b5d386a7192"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\MPU9250_SpeedTest\Design02.cydsn\TopDesign\TopDesign.cysch" Guid="d61f7b2c-64de-492b-82d7-bd8f1143dd08" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\MPU9250_SpeedTest\Design02.cydsn\main.c" Guid="9ce3e801-6fc7-499d-ac67-3b5d386a7192" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1109, 485" SelectedTabbedMdiWindow="2cfbc427-183d-4de2-8891-40d3447b627f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\MPU9250_SpeedTest\Design02.cydsn\TopDesign\TopDesign.cysch" Guid="d61f7b2c-64de-492b-82d7-bd8f1143dd08" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\MPU9250_SpeedTest\Design02.cydsn\main.c" Guid="9ce3e801-6fc7-499d-ac67-3b5d386a7192" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\MPU9250_SpeedTest\Design02.cydsn\header01.h" Guid="2cfbc427-183d-4de2-8891-40d3447b627f" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="Release" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

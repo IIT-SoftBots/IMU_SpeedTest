@@ -256,20 +256,14 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs>
-<name v=".\Design02.cydsn\main.c" />
-<name v=".\Design02.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Design02.cydsn\Design02.cydwr" />
-<name v=".\Design02.cydsn\source01.c" />
-<name v=".\Design02.cydsn\header01.h" />
-</OpenDocs>
+<OpenDocs />
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1493, 701" SelectedTabbedMdiWindow="0d45c4c0-3df3-4ab1-ac4c-009a80cdc749"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\main.c" Guid="b24d3c68-c60b-4348-958b-b796b9f6ae4b" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\TopDesign\TopDesign.cysch" Guid="9a0b9bfb-ad0b-4b94-af14-3a86aa02232b" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\Design02.cydwr" Guid="a45910c5-1454-49b1-ba2e-fcd719b4da79" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\source01.c" Guid="44afa820-7c2c-4e98-a609-7eb1a91f3606" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\IMU_SpeedTest\LSM6DSRX_SpeedTest\Design02.cydsn\header01.h" Guid="0d45c4c0-3df3-4ab1-ac4c-009a80cdc749" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1109, 485" SelectedTabbedMdiWindow="e6c53592-2600-47bd-bb84-e80a1b9fa9d1"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="Release" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
