@@ -167,7 +167,6 @@
 <v>MPU9250_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
 <v>MPU9250_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
 <v>MPU9250_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\FF_STATUS.lst</v>
-<v>MPU9250_SpeedTest\Design02\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -222,7 +221,6 @@
 <v>MPU9250_SpeedTest\Design02\or_v1_0\or_v1_0.pdf</v>
 <v>MPU9250_SpeedTest\Design02\SPI_Master_v2_50.pdf</v>
 <v>MPU9250_SpeedTest\Design02\Timer_v2_70</v>
-<v>MPU9250_SpeedTest\Design02\Timer_v2_70\Timer_v2_70.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
