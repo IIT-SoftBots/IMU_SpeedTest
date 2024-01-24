@@ -9,7 +9,7 @@
 #define LSM6DSRX_WhoAmI  0x0F
 
 int t0, t1,t2;
-int tempo,tempo2;
+uint16_t tempo,tempo2;
 int16_t AccX =0;
 byte dataToSend, xMSB, xLSB, yMSB, yLSB, zMSB, zLSB;
 
@@ -28,14 +28,13 @@ void setup() {
     //////////////////////////////////////////////////////LSM6DSRX
     // writeRegister(0x10, 0xA0); //LSM6DSRX
     //////////////////////////////////////////////////////////////
+      dataToSend = 0x3B | 0b10000000;  //OUTX_AXEL + Readbit
+      t0= micros();
 }
+  
 
 void loop() {    
-
-  t0 = micros();
-  
-  dataToSend = 0x3B | 0b10000000;  //OUTX_AXEL + Readbit
-  
+delayMicroseconds(100);
   SPI.beginTransaction(SPISettings(8000000, MSBFIRST, SPI_MODE3) ); //ArduinoUNO oscillator f.=16MHz. --> Max SPI speed = 16/2 = 8MHz, SPI_MODE3--> CPHA=CPOL=1
   
   digitalWrite(CS, LOW);   //CS Low to start trasmission
@@ -43,45 +42,59 @@ void loop() {
   SPI.transfer(dataToSend); 
   
   xMSB = SPI.transfer(0x00); 
+  Serial.write(xMSB);
   xLSB = SPI.transfer(0x00);
+  Serial.write(xLSB);
   
   yMSB = SPI.transfer(0x00);
+    Serial.write(yMSB);
   yLSB = SPI.transfer(0x00);
+    Serial.write(yLSB);
   
   zMSB = SPI.transfer(0x00);
+    Serial.write(zMSB);
   zLSB = SPI.transfer(0x00);
+    Serial.write(zLSB);
   
   digitalWrite(CS, HIGH); // take the chip select high to de-select:
   
   SPI.endTransaction();
   
-  t1 = micros();
-  
-  int16_t AccX = (uint16_t)(xMSB<<8) | (uint16_t)xLSB;
+ 
+  //int16_t AccX = (uint16_t)(xMSB<<8) | (uint16_t)xLSB;
   //Serial.print("AccX: ");
   //Serial.print(AccX);
-  //Serial.write(AccX);   scambia dati senza stamparli --> effettivi 2000000Mbit*s
-  // Serial.print("  ");
+  //Serial.write(AccX);  // scambia dati senza stamparli --> effettivi 2000000Mbit*s
+   //Serial.print("  ");
   
-  int16_t AccY = (uint16_t)(yMSB<<8) | (uint16_t)yLSB;
-  //Serial.print("AccY: ");
-  //Serial.print(AccY);
+ // int16_t AccY = (uint16_t)(yMSB<<8) | (uint16_t)yLSB;
+ // Serial.print("AccY: ");
+  //Serial.write(AccY);
   //Serial.print("  ");
   
-  int16_t AccZ = (uint16_t)(zMSB<<8) | (uint16_t)zLSB;
+//  int16_t AccZ = (uint16_t)(zMSB<<8) | (uint16_t)zLSB;
   //Serial.print("AccZ: ");
-  //Serial.println(AccZ);
+  //Serial.write(AccZ);
+  //  Serial.print("  ");
+
+  uint8_t lTempo = (uint8_t)(tempo & 0x00FF);
+  uint8_t mTempo = (uint8_t)((tempo & 0xFF00)>> 8);
+  Serial.write(mTempo);
+  Serial.write(lTempo);
   
-  t2 = micros();
+
+  Serial.write('A');
   
-  tempo2 = t2 - t0;
-  Serial.print("Tot Time:");
-  Serial.print(tempo2);
+  Serial.write('A');
+
+
+  //Serial.println(tempo2);
   
-  tempo = t1 - t0;
-  Serial.print(" Read Time: ");
-  Serial.println(tempo);
+  //Serial.print(" Read Time: ");
+ // Serial.println(tempo);
  
+  t2 = micros();
+  tempo = t2 - t0;
 }
 
 
