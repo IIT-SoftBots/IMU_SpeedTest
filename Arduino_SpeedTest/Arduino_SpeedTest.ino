@@ -8,10 +8,10 @@
 #define MPU9250_WhoAmI   0x75
 #define LSM6DSRX_WhoAmI  0x0F
 
-int t0, t1,t2;
+uint16_t t0, t1,t2;
 uint16_t tempo,tempo2;
 int16_t AccX =0;
-byte dataToSend, xMSB, xLSB, yMSB, yLSB, zMSB, zLSB;
+byte dataToSend, xMSB, xLSB, yMSB, yLSB, zMSB, zLSB,DATA_RDY;
 
 void setup() {
     Serial.begin(2000000);
@@ -24,7 +24,10 @@ void setup() {
     //////////////////////////////////////////////////////MPU9250
     writeRegister(0x1A, 0x06); //MPU9250
     writeRegister(0x1C, 0x00); //MPU9250
-    writeRegister(0x1D, 0x00); //MPU9250
+    writeRegister(0x1D, 0x08); //MPU9250 nolpf
+    writeRegister(0x6C, 0b00000111);
+    //writeRegister(0x1D, 0x02); //MPU9250  lpf 218hz, odr=1khz
+
     //////////////////////////////////////////////////////LSM6DSRX
     // writeRegister(0x10, 0xA0); //LSM6DSRX
     //////////////////////////////////////////////////////////////
@@ -34,33 +37,69 @@ void setup() {
   
 
 void loop() {    
-delayMicroseconds(100);
+
   SPI.beginTransaction(SPISettings(8000000, MSBFIRST, SPI_MODE3) ); //ArduinoUNO oscillator f.=16MHz. --> Max SPI speed = 16/2 = 8MHz, SPI_MODE3--> CPHA=CPOL=1
-  
-  digitalWrite(CS, LOW);   //CS Low to start trasmission
-  
+
+  do{
+      digitalWrite(CS, LOW);   //CS Low to start trasmission
+      
+   SPI.transfer(0x3A | 0b10000000);
+     delayMicroseconds(5);
+
+   DATA_RDY = SPI.transfer(0x00);
+   DATA_RDY = DATA_RDY & 0b00000001;
+digitalWrite(CS, HIGH);   //CS Low to start trasmission
+}
+  while(DATA_RDY == 0);
+    digitalWrite(CS, LOW);
+  t2 = micros();
+  tempo= t2-t0;
+  //t1 = micros();
   SPI.transfer(dataToSend); 
-  
-  xMSB = SPI.transfer(0x00); 
+    delayMicroseconds(5);
+
+  xMSB = SPI.transfer(0x00);
+    delayMicroseconds(5);
+ 
   Serial.write(xMSB);
+    delayMicroseconds(5);
   xLSB = SPI.transfer(0x00);
+    delayMicroseconds(5);
+
   Serial.write(xLSB);
+  delayMicroseconds(5);
+
   
   yMSB = SPI.transfer(0x00);
-    Serial.write(yMSB);
+    delayMicroseconds(5);
+
+   Serial.write(yMSB);
+     delayMicroseconds(5);
+
   yLSB = SPI.transfer(0x00);
+  delayMicroseconds(5);
+
     Serial.write(yLSB);
-  
+        delayMicroseconds(5);
+
+  //delayMicroseconds(5);
   zMSB = SPI.transfer(0x00);
-    Serial.write(zMSB);
+    delayMicroseconds(5);
+
+   Serial.write(zMSB);
+     delayMicroseconds(5);
+
   zLSB = SPI.transfer(0x00);
+    delayMicroseconds(5);
+
     Serial.write(zLSB);
+      delayMicroseconds(5);
+  digitalWrite(CS, HIGH);
+SPI.endTransaction();
   
-  digitalWrite(CS, HIGH); // take the chip select high to de-select:
-  
-  SPI.endTransaction();
-  
- 
+    
+ // take the chip select high to de-select:
+
   //int16_t AccX = (uint16_t)(xMSB<<8) | (uint16_t)xLSB;
   //Serial.print("AccX: ");
   //Serial.print(AccX);
@@ -76,16 +115,28 @@ delayMicroseconds(100);
   //Serial.print("AccZ: ");
   //Serial.write(AccZ);
   //  Serial.print("  ");
-
-  uint8_t lTempo = (uint8_t)(tempo & 0x00FF);
-  uint8_t mTempo = (uint8_t)((tempo & 0xFF00)>> 8);
+  byte lTempo = (byte)(tempo & 0x00FF);
+  byte mTempo = (byte)((tempo & 0xFF00)>> 8);
   Serial.write(mTempo);
+    delayMicroseconds(5);
+
   Serial.write(lTempo);
+  delayMicroseconds(5);
+
+  //Serial.println(lTempo);
   
 
   Serial.write('A');
-  
-  Serial.write('A');
+    delayMicroseconds(5);
+
+  Serial.write('B');
+    delayMicroseconds(5);
+
+  Serial.write('C');
+    delayMicroseconds(5);
+
+  Serial.write('D');
+    delayMicroseconds(5);
 
 
   //Serial.println(tempo2);
@@ -93,17 +144,16 @@ delayMicroseconds(100);
   //Serial.print(" Read Time: ");
  // Serial.println(tempo);
  
-  t2 = micros();
-  tempo = t2 - t0;
+
 }
 
-
+/*
  uint64_t readRegister(byte thisRegister, int bytesToRead) {
   byte inByte = 0;           // incoming byte from the SPI
   uint64_t result = 0; 
   
   dataToSend = thisRegister | 0b10000000;
-  SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE3) );
+  SPI.beginTransaction(SPISettings(800000, MSBFIRST, SPI_MODE3) );
   digitalWrite(CS, LOW);  
   SPI.transfer(dataToSend); 
   result = SPI.transfer(0x00);
@@ -119,13 +169,12 @@ delayMicroseconds(100);
   SPI.endTransaction();
   return (result);
 }
+*/
 
-
-void writeRegister(byte thisRegister, byte thisValue) {
-  byte dataToSend = thisRegister;  // now combine the register address and the command into one byte:       
-  SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE3));
+void writeRegister(byte thisRegister, byte thisValue) {     
+  SPI.beginTransaction(SPISettings(800000, MSBFIRST, SPI_MODE3));
   digitalWrite(CS, LOW);// take the chip select low to select the device
-  SPI.transfer(dataToSend); //Send register location
+  SPI.transfer(thisRegister); //Send register location
   SPI.transfer(thisValue); //Send register location
   digitalWrite(CS, HIGH);// take the chip select high to de-select:
   SPI.endTransaction();
